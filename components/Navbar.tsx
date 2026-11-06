@@ -230,7 +230,7 @@ export function Navbar() {
                   Get Demo
                 </Button>
               </Link>
-              <Link href="https://cad.spaceaiapp.com/login">
+              <Link href="https://app.spacehr.net/login">
                 <Button
                   size="sm"
                   className="rounded-lg px-4 lg:px-6 bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-500 dark:to-blue-600 text-white hover:from-blue-700 hover:to-blue-800 dark:hover:from-blue-600 dark:hover:to-blue-700 shadow-md transition-all hover:shadow-xl hover:scale-105 font-semibold border-none whitespace-nowrap"
