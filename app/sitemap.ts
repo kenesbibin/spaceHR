@@ -77,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/features/ai-intelligence`,           lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/features/ai-templates`,              lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.8 },
     // Core HRMS features
+    { url: `${base}/features/benefits-administration`,   lastModified: d(2026, 6, 24), changeFrequency: "weekly",  priority: 0.9 },
     { url: `${base}/features/payroll`,                   lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/features/appraisals`,                lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/features/360-performance-appraisals`,lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.8 },
@@ -167,6 +168,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tools/w4-generator`,                             lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/fw4-form-download`,                        lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/resources/hr-chatbot-buyers-guide`,              lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/resources/replace-spreadsheets-hr-software`,     lastModified: d(2026, 6, 24), changeFrequency: "weekly",  priority: 0.9 },
     { url: `${base}/sitemap-page`,                                   lastModified: d(2026, 5, 1),  changeFrequency: "monthly", priority: 0.4 },
   ];
 

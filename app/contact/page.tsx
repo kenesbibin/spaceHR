@@ -140,9 +140,9 @@ export default function ContactPage() {
                                 >
                                     <method.icon className="w-6 h-6 text-white" />
                                 </div>
-                                <h3 className="text-base font-bold text-gray-900 dark:text-white mb-1">
+                                <p className="text-base font-bold text-gray-900 dark:text-white mb-1">
                                     {method.title}
-                                </h3>
+                                </p>
                                 <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
                                     {method.description}
                                 </p>

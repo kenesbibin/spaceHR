@@ -32,9 +32,9 @@ import {
 import { KnowledgeGraphDiagram } from "./KnowledgeGraphDiagram";
 
 export const metadata: Metadata = {
-  title: "Space HR Knowledge Graph — Connected People, Payroll & AI",
+  title: "HR Knowledge Graph & Verifiable AI",
   description:
-    "Explore how Space HR connects employees, HR administrators, payroll, performance management, finance, AI, compliance, industries, regions, and integrations into a single queryable HR knowledge graph with verifiable, source-attributed AI answers.",
+    "Connect employees, payroll, and compliance policies into a queryable HR knowledge graph. VeritasGraph delivers verifiable AI with source citations.",
   keywords: [
     "Space HR knowledge graph",
     "HR knowledge graph",
@@ -462,7 +462,7 @@ export default function KnowledgeGraphPage() {
                     className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 hover:border-white/25 transition-all duration-300"
                   >
                     <item.icon className="w-8 h-8 text-cyan-400 mb-3" />
-                    <h3 className="text-white font-semibold mb-1">{item.title}</h3>
+                    <div className="text-white font-semibold mb-1">{item.title}</div>
                     <p className="text-sm text-gray-400 leading-relaxed">
                       {item.text}
                     </p>

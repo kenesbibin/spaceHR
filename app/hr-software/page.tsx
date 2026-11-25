@@ -22,9 +22,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HR Software | The Ultimate Guide to HR Management Solutions (2026)",
+  title: "HR Software Guide — Top Management Solutions",
   description:
-    "A comprehensive 2,000+ word guide to HR Software. Compare features, benefits, and pricing. Learn why Space HR is the best HR software for modern teams.",
+    "The complete 2026 guide to human resource management software. Compare core HRIS, payroll, and performance capabilities for modern teams.",
   keywords: [
     "hr software",
     "best hr software",
@@ -135,9 +135,9 @@ export default function HRSoftwarePage() {
       <section className="py-12 bg-white dark:bg-[#0b1121]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="bg-blue-50 dark:bg-blue-900/10 border-l-4 border-blue-500 p-6 rounded-r-lg">
-            <h3 className="text-lg font-bold text-blue-800 dark:text-blue-300 mb-2">
+            <h2 className="text-lg font-bold text-blue-800 dark:text-blue-300 mb-2">
               What is HR Software?
-            </h3>
+            </h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               HR software is a digital solution that manages the full employee
               lifecycle. It automates administrative tasks like payroll,

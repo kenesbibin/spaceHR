@@ -31,9 +31,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Tax Compliance & Payroll Tax Automation | Space HR",
+  title: "Payroll Tax Compliance & Automation",
   description:
-    "Ensure 99.9% accuracy with automated Federal, State, and Local tax management. Track liability ledgers and stay compliant with multi-state tax table updates",
+    "Automate multi-state and global payroll tax compliance. Ensure accurate FUTA, SUTA, and local tax filings with automated calculation rules.",
   keywords: [
     "payroll tax automation",
     "federal tax compliance",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     "tax penalty prevention",
   ],
   openGraph: {
-    title: "Tax Compliance & Automation | Space HR",
+    title: "Tax Compliance & Automation",
     description:
       "Automated Federal, State, and Local tax management with real-time liability tracking and quarterly updates.",
     url: "https://spacehr.net/features/tax",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tax Compliance & Automation | Space HR",
+    title: "Tax Compliance & Automation",
     description:
       "Comprehensive Federal, State, and Local tax management with automated compliance.",
     images: ["/og-tax-compliance.jpg"],
@@ -374,9 +374,9 @@ export default function TaxCompliancePage() {
                     <Zap className="w-5 h-5 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Sub-Second Calculations
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Process thousands of tax calculations instantly
                     </p>
@@ -387,9 +387,9 @@ export default function TaxCompliancePage() {
                     <Scale className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Full Audit Trail
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Every calculation logged with timestamp and version
                     </p>
@@ -400,9 +400,9 @@ export default function TaxCompliancePage() {
                     <Target className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Margin of Error: ±0.01%
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Industry-leading accuracy for all calculations
                     </p>
@@ -534,35 +534,35 @@ export default function TaxCompliancePage() {
               </div>
               <div className="space-y-4">
                 <div className="border-l-4 border-green-500 pl-4 py-2 bg-green-50/50 dark:bg-green-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     Social Security (OASDI)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     6.2% employee + 6.2% employer up to $168,600 wage base
                     (2024)
                   </p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4 py-2 bg-green-50/50 dark:bg-green-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     Medicare (HI)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     1.45% employee + employer (no cap) + 0.9% Additional
                     Medicare
                   </p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4 py-2 bg-green-50/50 dark:bg-green-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     FUTA
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     6.0% employer (0.6% after credit) on first $7,000
                   </p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4 py-2 bg-green-50/50 dark:bg-green-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     Federal Income Tax
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     7 tax brackets from 10% to 37% based on W-4
                   </p>
@@ -582,33 +582,33 @@ export default function TaxCompliancePage() {
               </div>
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4 py-2 bg-blue-50/50 dark:bg-blue-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     State Income Tax (SIT)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     State-specific withholding tables and progressive rates
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4 py-2 bg-blue-50/50 dark:bg-blue-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     State Unemployment (SUI)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Experience-rated employer contributions
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4 py-2 bg-blue-50/50 dark:bg-blue-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     State Disability (SDI)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Required in CA, HI, NJ, NY, PR, RI
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4 py-2 bg-blue-50/50 dark:bg-blue-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     Paid Family Leave (PFL)
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     State-mandated in CA, NJ, NY, WA, etc.
                   </p>
@@ -628,33 +628,33 @@ export default function TaxCompliancePage() {
               </div>
               <div className="space-y-4">
                 <div className="border-l-4 border-purple-500 pl-4 py-2 bg-purple-50/50 dark:bg-purple-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     City Income Taxes
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     NYC, Philadelphia, Detroit, and more
                   </p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4 py-2 bg-purple-50/50 dark:bg-purple-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     School District Taxes
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Ohio and Pennsylvania school districts
                   </p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4 py-2 bg-purple-50/50 dark:bg-purple-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     Transit Taxes
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Oregon TriMet, SF Transit, etc.
                   </p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4 py-2 bg-purple-50/50 dark:bg-purple-900/10 rounded-r-lg">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                     County Taxes
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Various county-level withholdings
                   </p>
@@ -685,9 +685,9 @@ export default function TaxCompliancePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Pending Tax Tracking
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Real-time view of all tax liabilities across Federal,
                       State, and Local levels with aging reports
@@ -697,9 +697,9 @@ export default function TaxCompliancePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Payment Scheduling
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Automated reminders for quarterly and annual tax payments
                       with calendar integration
@@ -709,9 +709,9 @@ export default function TaxCompliancePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Compliance Reporting
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Export tax reports for quarterly filings, year-end
                       reconciliation, and audit requests
@@ -721,9 +721,9 @@ export default function TaxCompliancePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Penalty Prevention
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Proactive alerts when deposits are due to avoid IRS and
                       state penalties

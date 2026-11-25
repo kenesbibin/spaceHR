@@ -29,9 +29,9 @@ import {
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "HR AI Concierge — 24/7 Employee Self-Service Chatbot",
+  title: "HR AI Concierge — 24/7 Employee Support",
   description:
-    "24/7 AI HR concierge for employee queries, leave requests, and payslip retrieval. Reduce HR tickets by 70%. Setup in 48 hours, no coding required.",
+    "An AI HR concierge that resolves routine employee requests across Slack, Microsoft Teams, and web without burdening HR staff. Setup in 48 hours.",
   keywords: [
     "HR AI concierge",
     "24/7 employee self-service chatbot",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "intelligent HR assistant",
   ],
   openGraph: {
-    title: "HR AI Concierge — 24/7 Employee Self-Service | Space HR",
+    title: "HR AI Concierge — 24/7 Employee Self-Service",
     description:
       "AI-powered HR chatbot for instant employee self-service. Handle leave requests, policy queries, and payslip retrieval 24/7.",
     url: "https://spacehr.net/features/hr-ai-concierge",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HR AI Concierge | Space HR",
+    title: "HR AI Concierge",
     description:
       "24/7 AI chatbot for employee self-service. Reduce HR ticket volume by 70% with instant query resolution.",
   },

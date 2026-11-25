@@ -34,9 +34,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Finance Analytics & Labor Cost Management | Space HR",
+  title: "Finance Analytics & Labor Cost Management",
   description:
-    "Turn HR data into insights. Real-time labor cost analysis, predictive forecasting, and budget tracking help modern enterprises save up to 15% on labor costs.",
+    "Bridge the gap between HR and finance. Track payroll expenditure, labor variance, and compensation trends in real time across business units.",
   keywords: [
     "labor cost analytics",
     "HR finance dashboard",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     "HR ROI tracking",
   ],
   openGraph: {
-    title: "Finance Analytics & Labor Cost Management | Space HR",
+    title: "Finance Analytics & Labor Cost Management",
     description:
       "Real-time labor cost analysis with YTD vs Budget tracking and predictive forecasting. Save 15% on labor costs.",
     url: "https://spacehr.net/features/finance",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Finance Analytics & Labor Cost Management | Space HR",
+    title: "Finance Analytics & Labor Cost Management",
     description:
       "Transform HR data into strategic financial insights with real-time analytics.",
     images: ["/og-finance-analytics.jpg"],
@@ -538,9 +538,9 @@ export default function FinanceAnalyticsPage() {
                     <div className="w-8 h-8 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                       <Wallet className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Gross Pay
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 text-sm pl-11">
                     Base salary, overtime, bonuses, commissions
@@ -554,9 +554,9 @@ export default function FinanceAnalyticsPage() {
                     <div className="w-8 h-8 rounded-lg bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
                       <FileText className="w-4 h-4 text-red-600 dark:text-red-400" />
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Employer Taxes
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 text-sm pl-11">
                     FICA (7.65%), FUTA, SUI, Local employer taxes
@@ -570,9 +570,9 @@ export default function FinanceAnalyticsPage() {
                     <div className="w-8 h-8 rounded-lg bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
                       <Shield className="w-4 h-4 text-purple-600 dark:text-purple-400" />
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Benefits & Contributions
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 text-sm pl-11">
                     Health insurance, 401(k) match, other employer costs
@@ -586,7 +586,7 @@ export default function FinanceAnalyticsPage() {
                     <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center">
                       <DollarSign className="w-4 h-4 text-white" />
                     </div>
-                    <h4 className="font-bold">Total Labor Cost</h4>
+                    <h3 className="font-bold">Total Labor Cost</h3>
                   </div>
                   <p className="text-white/90 text-sm pl-11">
                     Complete cost of employment per employee
@@ -715,9 +715,9 @@ export default function FinanceAnalyticsPage() {
                 <div className="bg-white dark:bg-[#1e293b] rounded-xl p-6 border-l-4 border-green-500">
                   <div className="flex items-center gap-2 mb-2">
                     <TrendingUp className="w-5 h-5 text-green-500" />
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Projected Year-End
-                    </h4>
+                    </h3>
                   </div>
                   <div className="text-3xl font-bold text-gray-900 dark:text-white">
                     $1.18M
@@ -776,9 +776,9 @@ export default function FinanceAnalyticsPage() {
                     <TrendingUp className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Trend Analysis
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Projects year-end costs based on current spending velocity
                     </p>
@@ -789,9 +789,9 @@ export default function FinanceAnalyticsPage() {
                     <AlertTriangle className="w-4 h-4 text-red-600 dark:text-red-400" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Variance Alerts
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Automatic notifications when departments exceed budget
                       thresholds
@@ -803,9 +803,9 @@ export default function FinanceAnalyticsPage() {
                     <Layers className="w-4 h-4 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Scenario Planning
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Model hiring freezes, raises, or layoffs to see budget
                       impact
@@ -817,9 +817,9 @@ export default function FinanceAnalyticsPage() {
                     <RefreshCw className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Real-Time Updates
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Forecasts recalculate automatically after each payroll run
                     </p>

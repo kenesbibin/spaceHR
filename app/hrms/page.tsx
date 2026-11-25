@@ -27,9 +27,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "What is HRMS? Complete Guide to HR Management Systems",
+  title: "What is HRMS? Complete Guide to HR Systems",
   description:
-    "What is HRMS? Complete guide to Human Resource Management Systems: HRMS vs HRIS vs HCM, core modules, and how to choose the best HRMS software in 2026.",
+    "Comprehensive 2026 guide to Human Resource Management Systems (HRMS). Learn core modules, ROI calculation, implementation steps, and cloud vs on-prem.",
   keywords: [
     "hrms",
     "human resource management system",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/hrms",
   },
   openGraph: {
-    title: "What is HRMS? Complete Guide 2026 | Space HR",
+    title: "What is HRMS? Complete Guide 2026",
     description:
       "Everything you need to know about Human Resource Management Systems — modules, HRMS vs HRIS vs HCM, implementation guide, and how to choose the right HRMS software.",
     url: "https://spacehr.net/hrms",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HRMS Complete Guide 2026 | Space HR",
+    title: "HRMS Complete Guide 2026",
     description:
       "HRMS modules, HRIS vs HCM comparison, buyer's guide, and implementation steps. Everything HR teams need to know.",
   },
@@ -305,7 +305,7 @@ export default function HRMSPage() {
       <section id="definition" className="py-20 bg-white dark:bg-[#0b1121]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="bg-purple-50 dark:bg-purple-900/10 border-l-4 border-purple-500 p-6 rounded-r-xl mb-10">
-            <h3 className="text-lg font-bold text-purple-800 dark:text-purple-300 mb-2">HRMS Definition</h3>
+            <h2 className="text-lg font-bold text-purple-800 dark:text-purple-300 mb-2">HRMS Definition</h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               A <strong>Human Resource Management System (HRMS)</strong> is an integrated suite of software applications that automates and manages the end-to-end employee lifecycle — from job posting and onboarding through payroll, performance, and offboarding. It combines an employee database with workflow automation, compliance management, and analytics in a single platform.
             </p>
@@ -440,7 +440,7 @@ export default function HRMSPage() {
             ))}
           </div>
           <div className="prose prose-lg dark:prose-invert text-gray-700 dark:text-gray-300 space-y-5 leading-relaxed max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white">How to Calculate HRMS ROI for Your Organization</h3>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">How to Calculate HRMS ROI for Your Organization</h2>
             <p>
               The ROI calculation for HRMS has three main components. First, <strong>HR admin time savings</strong>: measure the hours your HR team currently spends on payroll processing, leave management, document generation, and responding to employee queries. A 5-person HR team managing 200 employees typically spends 60–80% of their time on administrative tasks. After HRMS deployment, this drops to 20–30%, freeing 3–4 HR team members for strategic work.
             </p>

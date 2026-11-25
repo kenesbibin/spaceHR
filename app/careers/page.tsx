@@ -24,9 +24,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Careers at Space HR — Join the Team Shaping the Future of HR with AI",
+  title: "Careers — Join the AI HR Platform Team",
   description:
-    "Explore remote careers at Space HR. We're hiring MERN Stack Developers, Senior MERN Developers, and Python AI/ML Engineers to build the AI-powered HR platform serving 500+ companies across the US, UAE, UK & India.",
+    "Join Space HR to shape the future of AI in workforce management. Explore open remote engineering, AI/ML, and product roles with competitive equity."re hiring MERN Stack Developers, Senior MERN Developers, and Python AI/ML Engineers to build the AI-powered HR platform serving 500+ companies across the US, UAE, UK & India.",
   keywords: [
     "Space HR careers",
     "Space AI careers",

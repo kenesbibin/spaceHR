@@ -22,9 +22,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Workday Alternative for Mid-Market Enterprises | Space HR",
+  title: "Workday Alternatives for Mid-Market HR",
   description:
-    "Workday alternative: enterprise AI HRMS at mid-market pricing. Predictive analytics, AI payroll auditing, and 360° appraisals without the complexity.",
+    "Explore top Workday alternatives for mid-market teams. Space HR delivers enterprise HRMS, automated payroll, and AI without the heavy overhead.",
   keywords: [
     "workday alternative",
     "workday alternative for mid-market",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "workday alternative with AI",
   ],
   openGraph: {
-    title: "Workday Alternative for Mid-Market Enterprises | Space HR",
+    title: "Workday Alternatives for Mid-Market HR",
     description:
       "Enterprise-grade AI HRMS without the Workday complexity. Predictive analytics, AI payroll auditing, and 360° appraisals at mid-market pricing.",
     url: "https://spacehr.net/compare/workday",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Workday Alternative for Mid-Market Enterprises | Space HR",
+    title: "Workday Alternatives for Mid-Market HR",
     description: "Enterprise-grade AI HRMS without the Workday complexity. Predictive analytics, AI payroll auditing, and 360° appraisals at mid-market pricing.",
   },
   alternates: {

@@ -17,9 +17,9 @@ import { JsonLd,
   generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Press & Media Kit | Space HR — AI-Powered HR Platform",
+  title: "Press & Media Kit — Brand Assets & News",
   description:
-    "Space HR press resources: company overview, product facts, logo downloads, screenshots, and media contact. For journalists, analysts, and directory editors.",
+    "Official press kit and media resources for Space HR. Download logos, read company milestones, and access executive bios and product releases.",
   keywords: [
     "Space HR press kit",
     "Space HR media kit",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/press",
   },
   openGraph: {
-    title: "Press & Media Kit | Space HR",
+    title: "Press & Media Kit",
     description:
       "Brand assets, company facts, screenshots, and press contact for Space HR.",
     url: "https://spacehr.net/press",

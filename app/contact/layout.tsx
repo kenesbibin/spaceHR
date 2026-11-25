@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Space HR - Get Support or Request a Demo",
+  title: "Contact Us — Support & Product Demos",
   description:
-    "Reach the Space HR team for product demos, support, partnerships, or general inquiries. Available Monday–Friday 9am–6pm EST. Free trial available.",
+    "Contact Space HR for enterprise sales, product demos, and customer support. Our HR technology specialists reply within one business day.",
   keywords: [
     "contact Space HR",
     "HR software support",
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/contact",
   },
   openGraph: {
-    title: "Contact Space HR - Get Support or Request a Demo",
+    title: "Contact Us — Support & Product Demos",
     description:
-      "Reach the Space HR team for demos, support, or partnerships. Fast response guaranteed.",
+      "Contact Space HR for enterprise sales, product demos, and customer support. Fast response guaranteed.",
     url: "https://spacehr.net/contact",
     siteName: "Space HR",
     type: "website",

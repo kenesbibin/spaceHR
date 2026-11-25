@@ -29,9 +29,9 @@ import {
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "AI Payroll Auditor — Automated Anomaly Detection",
+  title: "AI Payroll Auditor — Anomaly Detection",
   description:
-    "Detect payroll anomalies before they cost you. AI scans every run for tax errors, NACHA compliance, and calculation mistakes. Reduce payroll errors by 99%.",
+    "Automatically audit every payroll run before direct deposits occur. Space HR detects gross-to-net anomalies, ghost workers, and tax miscalculations.",
   keywords: [
     "AI payroll auditor",
     "automated payroll anomaly detection",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "payroll reconciliation software",
   ],
   openGraph: {
-    title: "AI Payroll Auditor — Automated Anomaly Detection | Space HR",
+    title: "AI Payroll Auditor — Automated Anomaly Detection",
     description:
       "Eliminate payroll errors with AI-powered anomaly detection. Scan every payroll run for compliance issues, tax miscalculations, and data inconsistencies.",
     url: "https://spacehr.net/features/ai-payroll-auditor",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Payroll Auditor | Space HR",
+    title: "AI Payroll Auditor",
     description:
       "Detect payroll anomalies before they cost you. AI-powered auditing for NACHA compliance, tax withholding, and gross-to-net accuracy.",
   },

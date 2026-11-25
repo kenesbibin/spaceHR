@@ -23,9 +23,9 @@ import { JsonLd, generateFAQSchema, generateBreadcrumbSchema,
   softwareSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Labor Cost Forecasting Software | Space HR",
+  title: "Labor Cost Forecasting & Analytics",
   description:
-    "AI labor cost forecasting: predict 12 months of workforce spend with 95% accuracy. Model scenarios and automate variance alerts. Free trial.",
+    "Forecast labor costs and headcount expenses with AI scenario modeling. Compare budget vs actual payroll spend across departments and subsidiaries.",
   keywords: [
     "labor cost forecasting software",
     "workforce cost prediction",
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
   ],
   twitter: {
     card: "summary_large_image",
-    title: "Labor Cost Forecasting Software — Predict Workforce Costs 12 Months Out | Space HR",
+    title: "Labor Cost Forecasting Software — Predict Workforce Costs 12 Months Out",
     description: "Stop guessing your biggest expense. Forecast salaries, benefits, and overtime with 95% accuracy using Space HR's AI-powered labor cost prediction engine.",
   },
   alternates: {
     canonical: "https://spacehr.net/features/cost-prediction",
   },
   openGraph: {
-    title: "Labor Cost Forecasting Software — Predict Workforce Costs 12 Months Out | Space HR",
+    title: "Labor Cost Forecasting Software — Predict Workforce Costs 12 Months Out",
     description:
       "Stop guessing your biggest expense. Forecast salaries, benefits, and overtime with 95% accuracy using Space HR's AI-powered labor cost prediction engine.",
     url: "https://spacehr.net/features/cost-prediction",
@@ -262,7 +262,7 @@ export default function CostPredictionPage() {
                       </div>
                     </div>
                     <div className="p-5 rounded-xl bg-slate-800/50 border border-slate-700">
-                      <h4 className="font-bold text-slate-200 mb-4 text-sm uppercase tracking-wider">Cost Drivers Breakdown</h4>
+                      <h3 className="font-bold text-slate-200 mb-4 text-sm uppercase tracking-wider">Cost Drivers Breakdown</h3>
                       <div className="space-y-3">
                         <div className="flex items-center justify-between text-sm">
                           <span className="text-slate-300">Base Salary</span>
@@ -289,7 +289,7 @@ export default function CostPredictionPage() {
                     </div>
                     <div className="p-4 rounded-xl bg-blue-900/10 border border-blue-900/30 flex items-center justify-between">
                       <div>
-                        <h4 className="font-bold text-blue-400 text-sm">Scenario: +10 Engineers in Q3</h4>
+                        <h3 className="font-bold text-blue-400 text-sm">Scenario: +10 Engineers in Q3</h3>
                         <p className="text-xs text-slate-400">Impact: +$850k/yr</p>
                       </div>
                       <Button size="sm" variant="secondary" className="h-8 text-xs">View Details</Button>
@@ -317,7 +317,7 @@ export default function CostPredictionPage() {
                       <CheckCircle2 className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Unlimited Scenario Planning</h4>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Unlimited Scenario Planning</h3>
                       <p className="text-slate-600 dark:text-slate-400">Model any what-if in seconds — merit increases, new hires, role eliminations, location expansions. Compare scenarios side-by-side to find the optimal path.</p>
                     </div>
                   </div>
@@ -326,7 +326,7 @@ export default function CostPredictionPage() {
                       <CheckCircle2 className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Real-Time Variance Alerts</h4>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Real-Time Variance Alerts</h3>
                       <p className="text-slate-600 dark:text-slate-400">Get notified the moment actual spend deviates from plan — with an AI-generated root-cause breakdown (overtime spike, unexpected hire, benefits rate change) so you can act immediately.</p>
                     </div>
                   </div>
@@ -335,7 +335,7 @@ export default function CostPredictionPage() {
                       <CheckCircle2 className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">All-In Cost Modeling</h4>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">All-In Cost Modeling</h3>
                       <p className="text-slate-600 dark:text-slate-400">Every cost component included: base salary, employer taxes (FICA, FUTA, SUTA, state), health premiums, 401k match, overtime, bonus accruals, and new-hire ramp costs.</p>
                     </div>
                   </div>

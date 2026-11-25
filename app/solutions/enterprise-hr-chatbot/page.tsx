@@ -31,9 +31,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Enterprise AI HR Chatbot — Security, Scale & HRIS Integration | Space HR",
+  title: "Enterprise AI HR Chatbot — Scale & Security",
   description:
-    "Enterprise AI HR chatbot with SSO, SCIM, private cloud, SOC 2 security, and integrations with Workday, SAP, Oracle, and ADP. Built for 1,000+ employees.",
+    "Enterprise-grade AI HR chatbot with SOC 2 compliance, role-based access, and deep HRIS integrations for organizations with 500 to 5,000+ employees.",
   keywords: [
     "enterprise ai hr chatbot",
     "enterprise hr chatbot",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Enterprise AI HR Chatbot | Space HR",
+    title: "Enterprise AI HR Chatbot",
     description:
       "Enterprise-grade AI HR chatbot with SSO, private cloud, SOC 2, and deep HRIS integration.",
     images: ["/desktop-design-showcase.webp"],

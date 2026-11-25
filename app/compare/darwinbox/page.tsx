@@ -12,17 +12,17 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Darwinbox vs Space HR: Regional HRMS vs AI-First Platform",
-  description: "Darwinbox is strong for APAC. Space HR adds AI payroll detection, attrition prediction, and an HR concierge chatbot that Darwinbox lacks.",
+  title: "Darwinbox vs Space HR: HRMS Comparison",
+  description: "Compare Darwinbox and Space HR on enterprise HRMS features, AI chatbot self-service, implementation speed, and global payroll compliance.",
   keywords: ["darwinbox alternative","Space HR vs darwinbox","ai hr software asia","darwinbox competitor","hr platform with ai chatbot"],
   twitter: {
     card: "summary_large_image",
-    title: "Darwinbox vs Space HR: Regional HRMS vs AI-First HR Platform",
+    title: "Darwinbox vs Space HR: HRMS Comparison",
     description: "Darwinbox is a strong HRMS for Asia-Pacific enterprises. Space HR adds AI-native payroll anomaly detection, attrition prediction, and a conversational HR concierge that Darwinbox lacks.",
   },
   alternates: { canonical: "https://spacehr.net/compare/darwinbox" },
   openGraph: {
-    title: "Darwinbox vs Space HR: Regional HRMS vs AI-First HR Platform",
+    title: "Darwinbox vs Space HR: HRMS Comparison",
     description: "Darwinbox is a strong HRMS for Asia-Pacific enterprises. Space HR adds AI-native payroll anomaly detection, attrition prediction, and a conversational HR concierge that Darwinbox lacks.",
     url: "https://spacehr.net/compare/darwinbox",
     siteName: "Space HR",

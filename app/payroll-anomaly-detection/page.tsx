@@ -23,9 +23,9 @@ import {
 } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Payroll Anomaly Detection Software | Space HR",
+  title: "Payroll Anomaly Detection Software",
   description:
-    "Space HR's AI payroll anomaly detection scans every pay run before funds transfer — catching ghost employees, tax errors, overtime spikes, and duplicate payments. Reduce payroll errors by 99%.",
+    "AI payroll anomaly detection scans pay runs before funds transfer — catching ghost employees, tax errors, and duplicate payments before ACH payouts."s AI payroll anomaly detection scans every pay run before funds transfer — catching ghost employees, tax errors, overtime spikes, and duplicate payments. Reduce payroll errors by 99%.",
   keywords: [
     "payroll anomaly detection",
     "payroll anomaly detection software",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/payroll-anomaly-detection",
   },
   openGraph: {
-    title: "Payroll Anomaly Detection Software | Space HR",
+    title: "Payroll Anomaly Detection Software",
     description:
       "Catch ghost employees, tax errors, overtime spikes, and duplicate payments before payroll runs. Space HR's AI payroll anomaly detection — 99% error reduction.",
     url: "https://spacehr.net/payroll-anomaly-detection",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Payroll Anomaly Detection Software | Space HR",
+    title: "Payroll Anomaly Detection Software",
     description:
       "AI payroll anomaly detection catches ghost employees, tax errors, and duplicate payments before funds transfer. 99% error reduction.",
     images: ["https://spacehr.net/desktop-design-showcase.webp"],
@@ -413,7 +413,7 @@ export default function PayrollAnomalyDetectionPage() {
                       <CheckCircle2 className="w-5 h-5 text-green-600 dark:text-green-400" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900 dark:text-white mb-1">{f.title}</h4>
+                      <h3 className="font-bold text-slate-900 dark:text-white mb-1">{f.title}</h3>
                       <p className="text-slate-600 dark:text-slate-400 text-sm">{f.desc}</p>
                     </div>
                   </div>

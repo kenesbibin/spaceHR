@@ -6,9 +6,9 @@ import { CareerDetail } from "@/components/CareerDetail";
 const career = getCareerBySlug("python-developer-ai");
 
 export const metadata: Metadata = {
-  title: "Python Developer — AI/ML | Careers at Space HR",
+  title: "Python AI/ML Developer — Careers",
   description:
-    "Apply to be a Python Developer (AI/ML) at Space HR. Design scalable AI systems using Python, Neo4j, RAG pipelines, LLMs, and vLLM optimization. 3 to 5 years experience. Remote role.",
+    "Join Space HR as a Python AI/ML Developer. Build scalable RAG pipelines, GraphRAG systems, and LLM services using Python and Neo4j. Remote role.",
   keywords: [
     "Python AI developer job",
     "ML engineer job",

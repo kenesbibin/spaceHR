@@ -22,9 +22,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Technology — Powered by VeritasGraph | Space HR",
+  title: "VeritasGraph Technology & Verifiable AI",
   description:
-    "How Space HR delivers verifiable AI with source attribution. Search and AI answers are grounded by VeritasGraph, an open-source GraphRAG knowledge-graph framework with citations and reasoning paths.",
+    "Explore how VeritasGraph grounds Space HR's AI in enterprise knowledge graphs to deliver verified, hallucination-free HR answers with citations.",
   keywords: [
     "VeritasGraph",
     "GraphRAG",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "bibin prathap VeritasGraph",
   ],
   openGraph: {
-    title: "Technology — Powered by VeritasGraph | Space HR",
+    title: "Technology — Powered by VeritasGraph",
     description:
       "Search and AI answers on Space HR are grounded by VeritasGraph, an open-source GraphRAG knowledge-graph framework that returns every answer with a verifiable citation and reasoning path.",
     type: "website",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Technology — Powered by VeritasGraph | Space HR",
+    title: "Technology — Powered by VeritasGraph",
     description:
       "Verifiable AI with source attribution. Space HR answers are grounded by the VeritasGraph GraphRAG knowledge-graph framework.",
     images: ["/desktop-design-showcase.webp"],
@@ -190,7 +190,7 @@ export default function TechnologyPage() {
                     className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10"
                   >
                     <item.icon className="w-8 h-8 text-emerald-400 mb-3" />
-                    <h3 className="text-white font-semibold mb-1">{item.title}</h3>
+                    <div className="text-white font-semibold mb-1">{item.title}</div>
                     <p className="text-sm text-gray-400 leading-relaxed">
                       {item.text}
                     </p>

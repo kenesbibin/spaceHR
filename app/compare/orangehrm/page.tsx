@@ -16,9 +16,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "OrangeHRM Alternative | Best AI-Powered HR Software (2026)",
+  title: "OrangeHRM Alternative — Modern AI HRMS",
   description:
-    "Looking for an OrangeHRM alternative? Space HR offers integrated AI automation, simpler setup, and better support than open-source HR tools. Compare features now.",
+    "Looking for an OrangeHRM alternative? Discover Space HR's cloud-native HRMS with automated payroll, AI chatbots, and zero server maintenance.",
   keywords: [
     "orangehrm alternative",
     "better than orangehrm",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "automated hr system",
   ],
   openGraph: {
-    title: "OrangeHRM Alternative | Best AI-Powered HR Software | Space HR",
+    title: "OrangeHRM Alternative — Modern AI HRMS",
     description: "Looking for an OrangeHRM alternative? Space HR offers integrated AI automation, simpler setup, and better support than open-source HR tools.",
     url: "https://spacehr.net/compare/orangehrm",
     siteName: "Space HR",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "OrangeHRM Alternative | Best AI-Powered HR Software | Space HR",
+    title: "OrangeHRM Alternative — Modern AI HRMS",
     description: "Looking for an OrangeHRM alternative? Space HR offers integrated AI automation, simpler setup, and better support than open-source HR tools.",
   },
   alternates: { canonical: "https://spacehr.net/compare/orangehrm" },

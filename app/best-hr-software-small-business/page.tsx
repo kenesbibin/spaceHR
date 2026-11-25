@@ -25,9 +25,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best HR Software for Small Business 2026 | Space HR",
+  title: "Best HR Software for Small Business 2026",
   description:
-    "Best HR software for small businesses in 2026. Compare Space HR, greytHR, Zoho People, Keka, and BambooHR on features, global compliance, and custom pricing. Free trial available.",
+    "Compare the best small business HR software for 2026. Explore Space HR, Gusto, BambooHR, and Zoho on payroll, compliance, self-service, and pricing.",
   keywords: [
     "best hr software for small business",
     "small business hr software",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/best-hr-software-small-business",
   },
   openGraph: {
-    title: "Best HR Software for Small Business 2026 | Space HR",
+    title: "Best HR Software for Small Business 2026",
     description:
       "Compare the top HR software options for small businesses globally. Features, multi-country compliance, and custom pricing for teams of 10–200 employees.",
     url: "https://spacehr.net/best-hr-software-small-business",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best HR Software for Small Business 2026 | Space HR",
+    title: "Best HR Software for Small Business 2026",
     description:
       "SMB HR software comparison: Space HR vs greytHR vs Zoho People vs Keka. Features, global compliance, custom pricing.",
   },
@@ -278,7 +278,7 @@ export default function SmallBusinessHRPage() {
       <section className="py-12 bg-white dark:bg-[#0b1121]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="bg-green-50 dark:bg-green-900/10 border-l-4 border-green-500 p-6 rounded-r-xl">
-            <h3 className="text-lg font-bold text-green-800 dark:text-green-300 mb-2">What is Small Business HR Software?</h3>
+            <h2 className="text-lg font-bold text-green-800 dark:text-green-300 mb-2">What is Small Business HR Software?</h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Small business HR software is a cloud-based platform that handles payroll, leave management, attendance, onboarding, and local statutory compliance for teams of 10–200 employees — without requiring a dedicated IT team or long implementation. Unlike enterprise HRMS (which can cost hundreds of thousands to implement), SMB HR software is self-service, goes live in 48 hours, and offers transparent pricing with no hidden fees.
             </p>
@@ -449,7 +449,7 @@ export default function SmallBusinessHRPage() {
           </div>
 
           {/* SMB vs Enterprise table */}
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">SMB HR Software vs Enterprise HRMS vs Spreadsheets</h3>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">SMB HR Software vs Enterprise HRMS vs Spreadsheets</h2>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 dark:border-gray-700 shadow-xl bg-white dark:bg-[#0b1121]">
             <table className="w-full text-left border-collapse">
               <thead>

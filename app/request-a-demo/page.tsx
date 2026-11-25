@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Request a Demo: AI-Powered HR Management ERP | Space HR",
+  title: "Request a Demo — See AI HRMS Live",
   description:
-    "Schedule a personalized demo of Space HR's AI-powered ERP. See automated payroll, 360° appraisals, tax compliance, and predictive analytics in action.",
+    "Schedule a personalized 30-minute demo of Space HR. See automated payroll, self-service chatbots, and predictive labor analytics tailored to your team."s AI-powered ERP. See automated payroll, 360° appraisals, tax compliance, and predictive analytics in action.",
   keywords: [
     "HR software demo",
     "payroll software demo",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "request HR platform demo",
   ],
   openGraph: {
-    title: "Request a Demo | Space HR",
+    title: "Request a Demo",
     description:
       "See our AI-powered HR ERP in action. Schedule your personalized demo today.",
     url: "https://spacehr.net/request-a-demo",

@@ -29,9 +29,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Space HR — AI-Powered HR Platform for Growing Teams",
+  title: "About Us — AI HR Platform for Teams",
   description:
-    "Learn about Space HR — an AI-powered HR platform for mid-market companies. Our mission: automate HR with chatbots, payroll detection, and workforce forecasting.",
+    "Discover Space HR's mission, leadership, and AI-powered HR platform. We help growing teams automate HR operations, payroll, and employee self-service.",
   keywords: [
     "Space AI",
     "Space HR",

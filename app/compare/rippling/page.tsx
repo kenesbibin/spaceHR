@@ -16,9 +16,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rippling vs Space HR: Why You Need AI Audits | Space HR",
+  title: "Rippling vs Space HR: Automated Payroll",
   description:
-    "Rippling automates speed, but Space HR ensures safety. Prevent payroll errors and compliance risks with our built-in AI Audit layer.",
+    "Compare Rippling and Space HR. Explore automated payroll auditing, benefits administration, predictable pricing, and fast 48-hour onboarding.",
   keywords: [
     "rippling alternative",
     "Space HR vs rippling",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "safer payroll alternative",
   ],
   openGraph: {
-    title: "Rippling vs Space HR: Why You Need AI Payroll Audits | Space HR",
+    title: "Rippling vs Space HR: Automated Payroll",
     description: "Rippling automates speed, but Space HR ensures safety. Prevent payroll errors and compliance risks with Space HR's built-in AI Audit layer.",
     url: "https://spacehr.net/compare/rippling",
     siteName: "Space HR",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rippling vs Space HR: Why You Need AI Payroll Audits | Space HR",
+    title: "Rippling vs Space HR: Automated Payroll",
     description: "Rippling automates speed, but Space HR ensures safety. Prevent payroll errors and compliance risks with Space HR's built-in AI Audit layer.",
   },
   alternates: { canonical: "https://spacehr.net/compare/rippling" },

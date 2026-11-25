@@ -24,9 +24,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gusto vs Space HR: AI Predictive Forecasting Comparison",
+  title: "Gusto vs Space HR: Small Business Payroll",
   description:
-    "Gusto vs Space HR: While Gusto handles basic payroll, Space HR adds AI cost forecasting, anomaly detection, and predictive analytics for growing enterprises.",
+    "Compare Gusto vs Space HR. Discover how Space HR matches Gusto's ease of use while adding AI anomaly detection and predictive labor forecasting.",
   keywords: [
     "gusto alternative",
     "gusto vs Space HR",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "gusto alternative for enterprises",
   ],
   openGraph: {
-    title: "Gusto vs Space HR: Why AI Predictive Forecasting Wins",
+    title: "Gusto vs Space HR: Small Business Payroll",
     description:
       "Gusto handles payroll basics. Space HR adds AI predictive forecasting, anomaly detection, and enterprise-grade workforce analytics.",
     url: "https://spacehr.net/compare/gusto",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gusto vs Space HR: Why AI Predictive Forecasting Wins",
+    title: "Gusto vs Space HR: Small Business Payroll",
     description: "Gusto handles payroll basics. Space HR adds AI predictive forecasting, anomaly detection, and enterprise-grade workforce analytics.",
   },
   alternates: {

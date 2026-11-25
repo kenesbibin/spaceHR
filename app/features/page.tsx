@@ -21,6 +21,7 @@ import {
   TrendingDown,
   Headphones,
   LayoutTemplate,
+  HeartPulse,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -262,6 +263,40 @@ export default function FeaturesHub() {
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
                   <span>NACHA-compliant ACH files</span>
+                </li>
+              </ul>
+              <div className="flex items-center text-primary font-bold group-hover:translate-x-2 transition-transform relative z-10">
+                Learn more <ArrowRight className="ml-2 w-4 h-4" />
+              </div>
+            </Link>
+
+            {/* Benefits Administration */}
+            <Link
+              href="/features/benefits-administration"
+              className="group relative bg-white dark:bg-[#1e293b] rounded-3xl p-8 border border-gray-100 dark:border-gray-800 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden block"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-100/50 dark:bg-purple-900/20 rounded-bl-[100px] transition-transform group-hover:scale-110 origin-top-right"></div>
+              <div className="w-14 h-14 rounded-2xl bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-6 group-hover:animate-pulse relative z-10">
+                <HeartPulse className="w-7 h-7" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3 relative z-10">
+                Benefits Administration
+              </h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6 relative z-10">
+                Online enrollment with real-time health, dental, and 401(k) payroll sync
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-6 relative z-10">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>Self-service open enrollment</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>Automatic payroll deduction sync</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>ACA & COBRA compliance automation</span>
                 </li>
               </ul>
               <div className="flex items-center text-primary font-bold group-hover:translate-x-2 transition-transform relative z-10">
@@ -773,9 +808,9 @@ export default function FeaturesHub() {
                 <div className="text-3xl font-bold text-blue-600 mb-2">
                   Step 1
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   Employee Selection
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Choose employees, define pay periods with start/end dates
                 </p>
@@ -784,9 +819,9 @@ export default function FeaturesHub() {
                 <div className="text-3xl font-bold text-blue-600 mb-2">
                   Step 2
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   Time Import
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Auto-import hours from time tracking systems
                 </p>
@@ -795,9 +830,9 @@ export default function FeaturesHub() {
                 <div className="text-3xl font-bold text-blue-600 mb-2">
                   Step 3
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   Pay Calculation
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Calculate gross pay, deductions, and net pay in real-time
                 </p>
@@ -806,9 +841,9 @@ export default function FeaturesHub() {
                 <div className="text-3xl font-bold text-blue-600 mb-2">
                   Step 4
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   Tax Withholding
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Auto-calculate Federal, State, and Local taxes
                 </p>
@@ -817,16 +852,16 @@ export default function FeaturesHub() {
                 <div className="text-3xl font-bold text-blue-600 mb-2">
                   Step 5
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   ACH File Generation
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Generate NACHA-compliant ACH files for direct deposit
                 </p>
               </div>
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white shadow-lg">
                 <div className="text-3xl font-bold mb-2">AI Boost</div>
-                <h4 className="text-xl font-bold mb-3">Automated Auditing</h4>
+                <h3 className="text-xl font-bold mb-3">Automated Auditing</h3>
                 <p className="text-white/90">
                   Flags anomalies before you hit "Process"
                 </p>
@@ -851,9 +886,9 @@ export default function FeaturesHub() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-gray-100 dark:border-gray-800 shadow-lg">
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   Template Builder
-                </h4>
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
@@ -877,9 +912,9 @@ export default function FeaturesHub() {
               </div>
 
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-gray-100 dark:border-gray-800 shadow-lg">
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   360° Reviews
-                </h4>
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
@@ -905,9 +940,9 @@ export default function FeaturesHub() {
               <div className="md:col-span-2 bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 rounded-2xl p-10 text-white shadow-2xl">
                 <div className="flex items-center gap-3 mb-4">
                   <Bot className="w-8 h-8" />
-                  <h4 className="text-2xl font-bold">
+                  <h3 className="text-2xl font-bold">
                     AI Appraisal Intelligence
-                  </h4>
+                  </h3>
                 </div>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
@@ -956,9 +991,9 @@ export default function FeaturesHub() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-gray-100 dark:border-gray-800 shadow-lg">
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   Labor Cost Analysis
-                </h4>
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
@@ -982,9 +1017,9 @@ export default function FeaturesHub() {
               </div>
 
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-gray-100 dark:border-gray-800 shadow-lg">
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   Tax Liability Ledger
-                </h4>
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
@@ -1008,9 +1043,9 @@ export default function FeaturesHub() {
               </div>
 
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-gray-100 dark:border-gray-800 shadow-lg">
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   ACH & Banking
-                </h4>
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />

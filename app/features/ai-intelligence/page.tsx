@@ -22,9 +22,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "AI Intelligence Layer: Hybrid Local/Cloud AI | Space HR",
+  title: "Hybrid Local & Cloud AI Intelligence Layer",
   description:
-    "Leverage predictive analytics and anomaly detection across HR and Finance. Optimize costs and enhance productivity with Space HR’s deep AI integration layer",
+    "Deploy enterprise AI intelligence with hybrid local and cloud inference. Ensure data privacy, zero model training on company data, and fast insights.",
   keywords: [
     "AI HR automation",
     "payroll AI anomaly detection",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "intelligent HR automation",
   ],
   openGraph: {
-    title: "AI Intelligence Layer | Space HR",
+    title: "AI Intelligence Layer",
     description:
       "Hybrid local/cloud AI that powers intelligent automation across Payroll, Appraisals, Tax, and Finance.",
     url: "https://spacehr.net/features/ai-intelligence",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Intelligence Layer | Space HR",
+    title: "AI Intelligence Layer",
     description:
       "Comprehensive AI automation for HR, Payroll, Appraisals, and Finance.",
     images: ["/og-ai-intelligence.jpg"],
@@ -359,9 +359,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Context-Aware Creation
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       AI analyzes job descriptions to suggest relevant
                       competencies
@@ -371,9 +371,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Role-Specific Questions
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Auto-generates questions for Engineering, Sales, Customer
                       Success, etc.
@@ -383,9 +383,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Competency Mapping
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Maps industry-standard competencies to your organization's
                       framework
@@ -395,9 +395,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Weighted Scoring
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Suggests appropriate weights based on role criticality
                     </p>
@@ -424,9 +424,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Writing Coach
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Suggests improvements to vague or unclear feedback
                     </p>
@@ -435,9 +435,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Bias Elimination
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Flags potentially biased language (gender, age, cultural)
                     </p>
@@ -446,9 +446,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Tone Analysis
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Ensures feedback is constructive and professional
                     </p>
@@ -457,9 +457,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Example Suggestions
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Recommends specific examples to support ratings
                     </p>
@@ -721,9 +721,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Local Processing
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Real-time anomaly detection runs locally for instant
                       validation
@@ -733,9 +733,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Cloud Intelligence
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Advanced analytics and predictive models run in the cloud
                     </p>
@@ -744,9 +744,9 @@ export default function AIIntelligencePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       Data Privacy
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       Sensitive data stays local while anonymized insights sync
                       to cloud
@@ -766,9 +766,9 @@ export default function AIIntelligencePage() {
                     <div className="w-10 h-10 rounded-lg bg-green-100 dark:bg-green-900/50 flex items-center justify-center text-green-600 dark:text-green-400 font-bold">
                       1
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Data Input
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     User enters payroll, appraisal, or other data
@@ -780,9 +780,9 @@ export default function AIIntelligencePage() {
                     <div className="w-10 h-10 rounded-lg bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold">
                       2
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Local Validation
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     AI instantly validates data for anomalies (local processing)
@@ -794,9 +794,9 @@ export default function AIIntelligencePage() {
                     <div className="w-10 h-10 rounded-lg bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center text-purple-600 dark:text-purple-400 font-bold">
                       3
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white">
+                    <h3 className="font-bold text-gray-900 dark:text-white">
                       Cloud Analytics
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Anonymized data syncs to cloud for predictive insights
@@ -808,7 +808,7 @@ export default function AIIntelligencePage() {
                     <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center font-bold">
                       4
                     </div>
-                    <h4 className="font-bold">Actionable Insights</h4>
+                    <h3 className="font-bold">Actionable Insights</h3>
                   </div>
                   <p className="text-sm text-white/90">
                     AI delivers recommendations and alerts in real-time
