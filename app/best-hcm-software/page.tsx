@@ -26,9 +26,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best HCM Software 2026 — Top 8 Platforms Compared",
+  title: "Best HCM Software 2026 — Top 8 Platforms",
   description:
-    "Compare the best HCM software of 2026: Space HR, Workday, SAP, Oracle, BambooHR, Darwinbox, Rippling, and ADP. Features, pricing, and which is right for you.",
+    "Compare the best HCM software for 2026. In-depth analysis of Space HR, Workday, SAP, and ADP on payroll accuracy, AI automation, and total cost.",
   keywords: [
     "best hcm software",
     "hcm software",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/best-hcm-software",
   },
   openGraph: {
-    title: "Best HCM Software 2026 — Top 8 Platforms Compared | Space HR",
+    title: "Best HCM Software 2026 — Top 8 Platforms Compared",
     description:
       "Unbiased comparison of the 8 best HCM software platforms: features, pricing, global compliance, and which is right for your team size.",
     url: "https://spacehr.net/best-hcm-software",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best HCM Software 2026 | Space HR",
+    title: "Best HCM Software 2026",
     description:
       "Top 8 HCM platforms compared: Workday, SAP SuccessFactors, Oracle, BambooHR, Darwinbox, Rippling, ADP, and Space HR. Pricing, features, pros & cons.",
   },

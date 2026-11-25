@@ -20,9 +20,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "AI-Powered Performance Appraisals | 360° Reviews",
+  title: "AI-Powered Performance Reviews & Appraisals",
   description:
-    "Transform performance reviews with AI coaching. Get natural language summaries, training recommendations, and calibration insights for 360-degree appraisals.",
+    "Transform employee performance reviews with continuous feedback, KPI tracking, and AI-assisted coaching notes for managers and growing teams.",
   keywords: [
     "AI performance appraisals",
     "360 degree reviews",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "automated review cycles",
   ],
   openGraph: {
-    title: "AI Performance Appraisals | Space HR",
+    title: "AI Performance Appraisals",
     description:
       "360° reviews with AI-generated summaries and personalized training recommendations.",
     images: ["/og-appraisals.png"],

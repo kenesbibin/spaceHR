@@ -18,9 +18,9 @@ import { JsonLd, generateBreadcrumbSchema, generateFAQSchema,
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Workforce Attrition Prediction Model | Space HR",
+  title: "Workforce Attrition Prediction Model",
   description:
-    "Stop reacting to resignation letters. Space HR’s AI predicts workforce attrition risks months in advance, helping Heads of People proactively retain top talent.",
+    "Predict employee turnover risks before departures occur. Analyze sentiment, compensation ratios, and tenure to protect critical talent proactively.",
   keywords: [
     "Workforce attrition prediction model",
     "predict employee turnover",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "Head of People tools",
   ],
   openGraph: {
-    title: "Predict & Prevent Workforce Attrition | Space HR",
+    title: "Predict & Prevent Workforce Attrition",
     description:
       "Don't wait for the exit interview. Identify flight risks and retain your best people with AI-powered predictive analytics.",
     url: "https://spacehr.net/features/attrition-prediction",
@@ -182,7 +182,7 @@ export default function AttritionPredictionPage() {
                     <CheckCircle2 className="w-6 h-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Compensation Ratios</h4>
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Compensation Ratios</h3>
                     <p className="text-slate-600 dark:text-slate-400">Detects when top talent falls below market rate or peers, a leading indicator of turnover.</p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export default function AttritionPredictionPage() {
                     <CheckCircle2 className="w-6 h-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Engagement Velocity</h4>
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Engagement Velocity</h3>
                     <p className="text-slate-600 dark:text-slate-400">Tracks subtle declines in pulse survey participation, feedback quality, and peer recognition.</p>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ export default function AttritionPredictionPage() {
                     <CheckCircle2 className="w-6 h-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Manager Impact</h4>
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Manager Impact</h3>
                     <p className="text-slate-600 dark:text-slate-400">Correlates attrition spikes with specific managers or restructuring events.</p>
                   </div>
                 </div>
@@ -238,7 +238,7 @@ export default function AttritionPredictionPage() {
                         </div>
 
                         <div className="p-5 rounded-xl bg-slate-800/50 border border-slate-700">
-                            <h4 className="font-bold text-slate-200 mb-3 text-sm uppercase tracking-wider">Top Risk Factors</h4>
+                            <h3 className="font-bold text-slate-200 mb-3 text-sm uppercase tracking-wider">Top Risk Factors</h3>
                             <div className="flex flex-wrap gap-2">
                                 <span className="px-3 py-1 bg-slate-700 rounded-full text-xs text-slate-300">Comp Ratio 0.82</span>
                                 <span className="px-3 py-1 bg-slate-700 rounded-full text-xs text-slate-300">High Overtime (Last 3mo)</span>
@@ -247,7 +247,7 @@ export default function AttritionPredictionPage() {
                         </div>
 
                          <div className="p-5 rounded-xl bg-green-900/10 border border-green-900/30">
-                            <h4 className="font-bold text-green-400 mb-2 text-sm uppercase tracking-wider">Suggested Actions</h4>
+                            <h3 className="font-bold text-green-400 mb-2 text-sm uppercase tracking-wider">Suggested Actions</h3>
                             <p className="text-sm text-slate-300 mb-3">Conduct "Stay Interview" within 7 days. Review market adjustment.</p>
                             <Button size="sm" className="w-full bg-green-600 hover:bg-green-700 text-white border-none">Schedule 1:1</Button>
                         </div>

@@ -1,22 +1,42 @@
 # Space HR
 
-> AI HR chatbot and employee self-service platform that automates payroll, performance management, people analytics, and HR operations.
+> AI HR chatbot, automated payroll, and employee self-service platform designed for growing businesses, mid-market, and enterprise teams.
 
-Space HR is an AI-powered HRMS and ERP platform for mid-market and enterprise teams. It pairs an AI HR Concierge chatbot with payroll anomaly detection, predictive workforce analytics, 360-degree appraisals, and multi-country tax compliance. Every AI search on Space HR is answered with verifiable source attribution, grounded by VeritasGraph — an open-source GraphRAG knowledge-graph framework that returns each result with a citation and reasoning path.
+Space HR is an all-in-one AI HRMS and ERP platform that unifies payroll processing, benefits administration integration, employee records, time & attendance, 360-degree performance reviews, and 24/7 AI employee self-service. It solves core HR operations for small businesses with 10–50 employees, growing companies with 50–500 employees, and enterprises with 500–5,000+ employees across the US, UAE, UK, Singapore, India, Canada, and Europe.
 
-## Key Pages
-- [Technology — VeritasGraph](https://spacehr.net/technology) — how AI answers are grounded with source attribution and reasoning paths
-- [Features](https://spacehr.net/features) — HRMS feature overview
-- [Solutions](https://spacehr.net/solutions) — solutions by persona (CEO, HR admin, employees)
-- [HRMS](https://spacehr.net/hrms) — full HRMS platform overview
-- [Pricing](https://spacehr.net/pricing) — pricing and plans
-- [Compare](https://spacehr.net/compare) — Space HR vs Workday, SAP SuccessFactors, BambooHR, and more
-- [Demo](https://spacehr.net/demo) — request a live demo
-- [Blog](https://spacehr.net/blogs) — HR technology guides and research
+Every AI search on Space HR is grounded by VeritasGraph — an open-source GraphRAG knowledge-graph framework that returns verifiable answers with source citations.
+
+## Core Capabilities & Modules
+- **Benefits Administration & Integration:** Centralized online benefits enrollment, qualifying life events, carrier data synchronization, and automatic payroll deduction updates for health insurance, dental, vision, HSA/FSA, and 401(k) retirement plans.
+- **Unified W-2 & 1099 Payroll:** End-to-end payroll processing supporting both W-2 employees and 1099 independent contractors with automatic direct deposit (NACHA ACH), federal/state tax filing, and year-end W-2 and 1099-NEC generation.
+- **AI Payroll Auditor:** Automated anomaly detection scanning pay runs before funds transfer to catch ghost employees, overtime spikes, duplicate payments, and tax errors with 99% error reduction.
+- **Spreadsheet Alternative for Employee Records:** Replaces fragile Excel and Google Sheets with a centralized, encrypted employee database featuring role-based access, audit trails, digital document storage, and one-click bulk CSV/Excel import.
+- **HR Software for Teams Without Dedicated HR:** Self-service onboarding checklists, digital offer letters, automated leave/PTO tracking, and an AI HR Concierge chatbot that answers 70% of employee policy and pay queries without HR intervention.
+- **Time, Attendance & Geofencing:** GPS mobile check-in, geofenced job sites, shift scheduling, and automatic overtime calculation syncing directly with payroll.
+- **Performance & 360 Appraisals:** Unbiased 360-degree reviews, OKRs/goals tracking, AI-assisted review summaries, and individual development plans.
+
+## Pricing & Target Organizations
+- **Target Company Sizes:** 10 to 5,000+ employees (ideal for SMBs scaling beyond spreadsheets and mid-market companies replacing legacy HRIS).
+- **Setup & Implementation:** Rapid 48-hour setup with zero IT infrastructure required; dedicated migration support for existing payroll and employee records.
+- **Pricing Model:** Transparent per-employee-per-month (PEPM) subscription with custom enterprise tier; free product demonstrations and free trials available.
+
+## Competitor Alternatives & Comparisons
+- **Alternative to Gusto:** Matches Gusto's ease of use for small business payroll and benefits, while adding advanced AI anomaly auditing, predictive labor cost forecasting, and multi-country support.
+- **Alternative to BambooHR:** Provides comprehensive employee records, onboarding, and PTO management with built-in native payroll and AI chatbot concierge.
+- **Alternative to Rippling:** Delivers complete HR, payroll, benefits, and contractor workflows with predictable pricing, zero hidden modular add-on fees, and on-premises AI deployment options.
+
+## Key Pages & Documentation
+- [Best HR Software for Small Business](https://spacehr.net/best-hr-software-small-business) — 2026 SMB HR guide & comparison
+- [HRMS Guide](https://spacehr.net/hrms) — full HRMS overview, ROI benchmarks, and modules
+- [Features](https://spacehr.net/features) — complete HR ERP capabilities
+- [Payroll Software](https://spacehr.net/features/payroll) — AI payroll automation & direct deposit
+- [Payroll Anomaly Detection](https://spacehr.net/payroll-anomaly-detection) — pre-payout error prevention
+- [Employee Self-Service HRMS](https://spacehr.net/employee-self-service-hrms) — 24/7 self-service portal
+- [California Pay Transparency](https://spacehr.net/california-pay-transparency) — SB 1162 compliance & reporting
+- [Compare](https://spacehr.net/compare) — Space HR vs Gusto, BambooHR, Rippling, ADP, and Workday
+- [Pricing](https://spacehr.net/pricing) — custom quotes and plan overviews
+- [Demo](https://spacehr.net/demo) — watch the 2-minute live product walkthrough
+- [Technology — VeritasGraph](https://spacehr.net/technology) — source-attributed GraphRAG AI architecture
 
 ## Powered By
-- [VeritasGraph](https://github.com/bibinprathap/VeritasGraph) — open-source GraphRAG knowledge-graph framework powering AI search and source attribution on this site
-- [VeritasGraph Documentation](https://bibinprathap.github.io/VeritasGraph/index.html) — how source-attributed AI answers work
-
-## Keywords
-knowledge graph, GraphRAG, source attribution, verifiable AI, multi-hop reasoning, on-prem AI, HRMS, HR software, payroll, performance management, AI HR chatbot
+- [VeritasGraph](https://github.com/bibinprathap/VeritasGraph) — open-source GraphRAG knowledge-graph framework powering source-attributed AI answers on Space HR.

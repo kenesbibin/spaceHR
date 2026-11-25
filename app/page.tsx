@@ -793,9 +793,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           Automated Tax Withholding
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           Real-time Federal, State, FICA, and Local tax
                           calculations with auto-updated tables
@@ -807,9 +807,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           ACH File Generation
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           NACHA-compliant direct deposit files ready for your
                           bank in one click
@@ -821,9 +821,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           AI Anomaly Detection
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           Detects pay rates &gt;50% above average and low tax
                           withholding before processing
@@ -915,9 +915,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-purple-600 dark:text-purple-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           Custom Template Builder
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           Create competency-based forms with weighted scoring
                           and role-specific questions
@@ -929,9 +929,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-purple-600 dark:text-purple-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           AI-Generated Summaries
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           Natural language summaries from all review responses
                           with training recommendations
@@ -943,9 +943,9 @@ export default function Home() {
                         <CheckCircle className="w-6 h-6 text-purple-600 dark:text-purple-400" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
+                        <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
                           Automated Review Cycles
-                        </h4>
+                        </h3>
                         <p className="text-gray-600 dark:text-gray-400">
                           Set it and forget it—automated reminders and
                           calibration workflows
@@ -989,9 +989,9 @@ export default function Home() {
                       <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
                         <TrendingUp className="w-10 h-10" />
                       </div>
-                      <h4 className="font-bold text-gray-900 dark:text-white mb-2">
+                      <h3 className="font-bold text-gray-900 dark:text-white mb-2">
                         Budget Variance
-                      </h4>
+                      </h3>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Track department spending vs. annual budget with
                         automated alerts
@@ -1001,9 +1001,9 @@ export default function Home() {
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                         <BarChart3 className="w-10 h-10" />
                       </div>
-                      <h4 className="font-bold text-gray-900 dark:text-white mb-2">
+                      <h3 className="font-bold text-gray-900 dark:text-white mb-2">
                         Cost Optimization
-                      </h4>
+                      </h3>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         AI suggests hiring when OT exceeds 8% of total labor
                         costs
@@ -1162,9 +1162,9 @@ export default function Home() {
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 flex items-center justify-center mb-6">
                   <ShieldCheck className="w-10 h-10 text-blue-600 dark:text-blue-400" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   SOC 2 Type II Certified
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Enterprise-grade security and annual third-party audits
                 </p>
@@ -1173,9 +1173,9 @@ export default function Home() {
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900/30 dark:to-teal-900/30 flex items-center justify-center mb-6">
                   <Globe className="w-10 h-10 text-green-600 dark:text-green-400" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   GDPR Compliant
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   EU data residency with full privacy protection
                 </p>
@@ -1184,9 +1184,9 @@ export default function Home() {
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/30 dark:to-pink-900/30 flex items-center justify-center mb-6">
                   <Award className="w-10 h-10 text-purple-600 dark:text-purple-400" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   IRS-Compliant Payroll
-                </h4>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Auto-updated tax tables for all 50 states
                 </p>

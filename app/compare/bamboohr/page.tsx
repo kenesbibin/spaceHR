@@ -17,9 +17,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BambooHR Alternatives for Mid-Sized Companies | Space HR",
+  title: "BambooHR Alternatives for Mid-Market",
   description:
-    "BambooHR is great for small business. Space HR provides scalability, global compliance, and API integrations for growing tech teams. See the comparison.",
+    "Looking for BambooHR alternatives? Discover how Space HR combines employee records, native payroll, AI chatbots, and multi-state compliance.",
   keywords: [
     "bamboohr alternative mid-sized business",
     "hr software for tech companies",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "global payroll for tech teams",
   ],
   openGraph: {
-    title: "BambooHR Alternatives for Mid-Sized Tech Companies | Space HR",
+    title: "BambooHR Alternatives for Mid-Market",
     description: "BambooHR is great for small business, but mid-sized tech companies need more. Space HR provides the scalability, global compliance, and API integrations growing tech teams demand.",
     url: "https://spacehr.net/compare/bamboohr",
     siteName: "Space HR",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BambooHR Alternatives for Mid-Sized Tech Companies | Space HR",
+    title: "BambooHR Alternatives for Mid-Market",
     description: "BambooHR is great for small business, but mid-sized tech companies need more. Space HR provides the scalability, global compliance, and API integrations growing tech teams demand.",
   },
   alternates: { canonical: "https://spacehr.net/compare/bamboohr" },

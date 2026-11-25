@@ -28,9 +28,9 @@ import { JsonLd, generateFAQSchema, generateBreadcrumbSchema,
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Leave Management System: Automated PTO Tracking | Space HR",
+  title: "Leave Management & Automated PTO Tracking",
   description:
-    "Simplify PTO and absence tracking with automated approval workflows. Get real-time visibility into vacation balances with direct payroll synchronization",
+    "Automate PTO accruals, sick leave, and vacation requests with custom approval flows. Keep teams synchronized with automated calendar updates.",
   keywords: [
     "leave management system",
     "PTO tracking software",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "employee time off management",
   ],
   openGraph: {
-    title: "Leave Management System | Space HR",
+    title: "Leave Management System",
     description:
       "Automated PTO tracking with approval workflows and payroll integration.",
     url: "https://spacehr.net/features/leave-management",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Leave Management System | Space HR",
+    title: "Leave Management System",
     description:
       "Streamline leave requests with automated approvals and real-time balance tracking.",
     images: ["/og-leave.png"],
@@ -429,9 +429,9 @@ export default function LeaveManagementPage() {
                       <CheckCircle className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                      <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                         {item.title}
-                      </h4>
+                      </h3>
                       <p className="text-gray-600 dark:text-gray-400 text-sm">
                         {item.desc}
                       </p>

@@ -31,9 +31,9 @@ import {
 } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "AI HR Chatbot for Employee Self-Service | Space HR",
+  title: "AI HR Chatbot for Employee Self-Service",
   description:
-    "AI HR chatbot for employee self-service. Answers questions about leave, payroll, and policies 24/7. Reduce HR tickets by 70%. Setup in 48 hours.",
+    "24/7 AI HR chatbot answering employee queries about leave, benefits, payroll, and company policies with verifiable citations and instant answers.",
   keywords: [
     "AI HR chatbot",
     "chatbot for HR services",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     "employee engagement chatbot",
   ],
   openGraph: {
-    title: "AI HR Chatbot for Employee Self-Service | Space HR",
+    title: "AI HR Chatbot for Employee Self-Service",
     description:
       "24/7 AI chatbot for HR services — instant answers on leave, payroll, policy, and benefits. Reduce HR workload by 70%. Setup in 48 hours.",
     url: "https://spacehr.net/features/ai-chatbots",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI HR Chatbot for Employee Self-Service | Space HR",
+    title: "AI HR Chatbot for Employee Self-Service",
     description:
       "24/7 AI chatbot for HR services — handles leave, payroll, policies, and benefits instantly. 70% fewer HR tickets. Setup in 48 hours.",
     images: ["/desktop-design-showcase.webp"],

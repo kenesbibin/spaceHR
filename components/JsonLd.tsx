@@ -39,14 +39,14 @@ export const organizationSchema = {
     },
   ],
   sameAs: [
-    "https://twitter.com/Space HR",
+    "https://twitter.com/SpaceHR",
     "https://www.linkedin.com/company/space-hr",
-    "https://www.facebook.com/Space HR",
-    "https://www.g2.com/products/Space HR",
-    "https://www.capterra.com/p/Space HR",
-    "https://www.trustradius.com/products/Space HR",
-    "https://www.producthunt.com/products/Space HR",
-    "https://www.crunchbase.com/organization/Space HR",
+    "https://www.facebook.com/SpaceHR",
+    "https://www.g2.com/products/space-hr",
+    "https://www.capterra.com/p/space-hr",
+    "https://www.trustradius.com/products/space-hr",
+    "https://www.producthunt.com/products/space-hr",
+    "https://www.crunchbase.com/organization/space-hr",
     "https://pmspace.ai",
     "https://spaceaiapp.com",
     "https://space-sign.ai",
@@ -171,11 +171,6 @@ export const websiteSchema = {
   url: "https://spacehr.net",
   description:
     "AI-powered HRMS and ERP platform for payroll, performance management, and workforce analytics.",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: "https://spacehr.net/search?q={search_term_string}",
-    "query-input": "required name=search_term_string",
-  },
 };
 
 // FAQ Schema generator for feature pages

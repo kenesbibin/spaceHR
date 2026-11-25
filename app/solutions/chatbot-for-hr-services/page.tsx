@@ -23,9 +23,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Chatbot for HR Services — Automate HR Operations",
+  title: "Chatbot for HR Services Delivery",
   description:
-    "Automate your HR services delivery with an AI chatbot that handles leave, payslips, policies, benefits, and onboarding requests — 24/7, integrated with your existing HR systems.",
+    "Automate HR service delivery with an AI chatbot handling leave, payslips, benefits, and policies 24/7 with seamless HRIS and ERP integration.",
   keywords: [
     "chatbot for hr services",
     "hr services chatbot",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/solutions/chatbot-for-hr-services",
   },
   openGraph: {
-    title: "Chatbot for HR Services — Automate HR Operations | Space HR",
+    title: "Chatbot for HR Services — Automate HR Operations",
     description:
       "Automate HR services delivery: leave, payslips, policies, benefits, and onboarding requests — 24/7 with AI.",
     url: "https://spacehr.net/solutions/chatbot-for-hr-services",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chatbot for HR Services | Space HR",
+    title: "Chatbot for HR Services",
     description:
       "Automate HR services delivery with AI. Leave, payslips, policies, benefits, onboarding — 24/7.",
     images: ["https://spacehr.net/desktop-design-showcase.webp"],

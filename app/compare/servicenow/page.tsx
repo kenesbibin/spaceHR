@@ -12,17 +12,17 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ServiceNow vs Space HR: AI HR Chatbot Without Complexity",
-  description: "ServiceNow needs months of configuration. Space HR deploys an AI HR chatbot in days with payroll detection, leave management, and zero IT overhead.",
+  title: "ServiceNow vs Space HR: HR Service Desk",
+  description: "Compare ServiceNow and Space HR for HR service delivery. Get 24/7 employee self-service resolution without months of complex IT configuration.",
   keywords: ["servicenow alternative","Space HR vs servicenow","hr service delivery software","ai hr chatbot servicenow alternative","hr helpdesk without servicenow"],
   twitter: {
     card: "summary_large_image",
-    title: "ServiceNow vs Space HR: AI HR Chatbot Without Enterprise Complexity",
+    title: "ServiceNow vs Space HR: HR Service Desk",
     description: "ServiceNow requires months of configuration and IT teams. Space HR deploys an AI HR chatbot in days — with built-in payroll anomaly detection, leave management, and zero IT overhead.",
   },
   alternates: { canonical: "https://spacehr.net/compare/servicenow" },
   openGraph: {
-    title: "ServiceNow vs Space HR: AI HR Chatbot Without Enterprise Complexity",
+    title: "ServiceNow vs Space HR: HR Service Desk",
     description: "ServiceNow requires months of configuration and IT teams. Space HR deploys an AI HR chatbot in days — with built-in payroll anomaly detection, leave management, and zero IT overhead.",
     url: "https://spacehr.net/compare/servicenow",
     siteName: "Space HR",

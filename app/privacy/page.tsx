@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Data Protection & GDPR | Space HR",
-  description: "Space HR's privacy policy. Learn how we collect, use, and protect your personal information.",
+  title: "Privacy Policy — Data Protection & GDPR",
+  description: "Review Space HR's privacy policy. Learn how we handle enterprise data, maintain GDPR and SOC 2 compliance, and protect employee personal records."s privacy policy. Learn how we collect, use, and protect your personal information.",
   alternates: {
     canonical: "https://spacehr.net/privacy",
   },

@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Space HR Social Media & Community Platforms",
+  title: "Social Media & Community Channels",
   description:
-    "Follow Space HR across official social channels and community platforms. Stay updated on AI HR insights, product launches, and workforce management news.",
+    "Connect with Space HR on LinkedIn, Twitter, GitHub, and YouTube. Stay updated on AI HR technology, payroll compliance, and product updates.",
   alternates: {
     canonical: "https://spacehr.net/social-media-platforms",
   },

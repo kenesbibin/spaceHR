@@ -28,9 +28,9 @@ import { JsonLd, generateFAQSchema, generateBreadcrumbSchema,
   softwareSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "HR Automation Software — Automate Workflows | Space HR",
+  title: "HR Automation Software — Automate Workflows",
   description:
-    "AI workflow automation for HR: onboarding, approvals, compliance reminders, and sentiment analysis. Save 40+ hours/week. Free trial.",
+    "Automate routine HR workflows from onboarding to leave approvals with Space HR. Cut administrative overhead by 70% with intelligent automation.",
   keywords: [
     "AI workflow automation",
     "HR process automation",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "sentiment analysis HR",
   ],
   openGraph: {
-    title: "AI Workflow Automation | Space HR",
+    title: "AI Workflow Automation",
     description:
       "Automate HR workflows: onboarding, approvals, reminders, and engagement campaigns with AI-powered intelligence.",
     url: "https://spacehr.net/features/ai-automation",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Workflow Automation | Space HR",
+    title: "AI Workflow Automation",
     description:
       "AI-powered workflow automation for HR: onboarding, approvals, and employee engagement.",
     images: ["/og-automation.jpg"],

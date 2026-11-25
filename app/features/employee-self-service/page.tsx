@@ -31,9 +31,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Employee Self-Service Portal Features | Space HR",
+  title: "Employee Self-Service Portal Features",
   description:
-    "Employee self-service portal: payslip access, leave requests, attendance, and document downloads. Mobile-first with AI chatbot and role-based security.",
+    "Empower your team with a modern employee self-service portal. Enable 1-click leave requests, mobile payslip access, and profile updates 24/7.",
   keywords: [
     "employee self service portal features",
     "ESS portal features",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "employee portal capabilities",
   ],
   openGraph: {
-    title: "Employee Self-Service Portal Features | Space HR",
+    title: "Employee Self-Service Portal Features",
     description:
       "Explore ESS portal capabilities: payslips, leave, attendance, documents, mobile UX, AI chatbot, and security.",
     url: "https://spacehr.net/features/employee-self-service",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Employee Self-Service Portal Features | Space HR",
+    title: "Employee Self-Service Portal Features",
     description:
       "ESS portal capabilities: payslips, leave, attendance, documents, mobile UX, and AI chatbot.",
     images: ["/og-ess.png"],
@@ -370,9 +370,9 @@ export default function EmployeeSelfServicePage() {
                       <item.icon className="w-6 h-6 text-orange-600 dark:text-orange-400" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                      <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                         {item.title}
-                      </h4>
+                      </h3>
                       <p className="text-gray-600 dark:text-gray-400 text-sm">
                         {item.desc}
                       </p>
@@ -455,9 +455,9 @@ export default function EmployeeSelfServicePage() {
 
                 {/* Quick Stats */}
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-6">
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-4">
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-4">
                     This Month
-                  </h4>
+                  </h3>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-gray-600 dark:text-gray-400 text-sm">

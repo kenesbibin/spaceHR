@@ -29,9 +29,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Internal Employee Chatbot for Slack, Teams & Intranet | Space HR",
+  title: "Internal Employee Chatbot for Slack & Teams",
   description:
-    "Internal HR chatbot for Slack, Teams, or intranet. Instant answers on leave, payroll, and policies with enterprise security. Setup in 48 hours.",
+    "Deploy an AI employee assistant directly inside Slack, Microsoft Teams, or web intranet. Answer payroll, PTO, and benefits questions instantly.",
   keywords: [
     "internal employee chatbot",
     "internal hr chatbot",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/solutions/internal-employee-chatbot",
   },
   openGraph: {
-  title: "Internal Employee Chatbot for Slack & Teams | Space HR",
+  title: "Internal Employee Chatbot for Slack & Teams",
     description:
       "Deploy an internal HR chatbot in Slack, Microsoft Teams, or your intranet. Instant answers with enterprise security.",
     url: "https://spacehr.net/solutions/internal-employee-chatbot",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Internal Employee Chatbot | Space HR",
+    title: "Internal Employee Chatbot",
     description:
       "Internal HR chatbot for Slack, Teams, and intranet. Instant answers with enterprise security.",
     images: ["/desktop-design-showcase.webp"],

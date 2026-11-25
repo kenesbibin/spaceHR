@@ -25,9 +25,9 @@ import {
 import ROICalculator from "./ROICalculator";
 
 export const metadata: Metadata = {
-  title: "Employee Self-Service Implementation & ROI | Space HR",
+  title: "Employee Self-Service ROI & Implementation",
   description:
-    "Deploy an employee self-service solution in 48 hours. See integration options, security controls, rollout steps, and ROI for mid-market and enterprise HR teams.",
+    "Implement an employee self-service portal that cuts HR support tickets by 70%. Fast 48-hour onboarding with mobile and web access for all employees.",
   keywords: [
     "employee self service implementation",
     "employee self service deployment",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/solutions/employee-self-service",
   },
   openGraph: {
-    title: "Employee Self-Service Implementation & ROI | Space HR",
+    title: "Employee Self-Service Implementation & ROI",
     description:
       "Deploy an employee self-service solution in 48 hours. Integration, security, rollout, and ROI for enterprise HR teams.",
     url: "https://spacehr.net/solutions/employee-self-service",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Employee Self-Service Implementation & ROI | Space HR",
+    title: "Employee Self-Service Implementation & ROI",
     description:
       "Deploy ESS in 48 hours. Integration, security, rollout steps, and ROI for HR teams.",
     images: ["https://spacehr.net/desktop-design-showcase.webp"],

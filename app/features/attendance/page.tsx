@@ -30,9 +30,9 @@ import {
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "GPS Time Tracking & Geofenced Attendance Software | Space HR",
+  title: "GPS Time Tracking & Geofenced Attendance",
   description:
-    "GPS time tracking with geofenced attendance verification and real-time check-ins. Prevent overtime with AI alerts and payroll integration.",
+    "Accurate GPS time tracking and geofenced mobile check-ins. Prevent time theft, automate shift overtime rules, and sync attendance directly with payroll.",
   keywords: [
     "GPS time tracking",
     "geofenced attendance",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     "labor time tracking",
   ],
   openGraph: {
-    title: "Attendance & Time Tracking | Space HR",
+    title: "Attendance & Time Tracking",
     description:
       "Real-time attendance tracking with GPS verification and payroll integration.",
     url: "https://spacehr.net/features/attendance",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Attendance & Time Tracking | Space HR",
+    title: "Attendance & Time Tracking",
     description:
       "AI-powered attendance management with real-time monitoring and analytics.",
     images: ["/og-attendance.png"],
@@ -465,9 +465,9 @@ export default function AttendancePage() {
                       <item.icon className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                      <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                         {item.title}
-                      </h4>
+                      </h3>
                       <p className="text-gray-600 dark:text-gray-400 text-sm">
                         {item.desc}
                       </p>

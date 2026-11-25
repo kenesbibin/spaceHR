@@ -14,9 +14,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "New York AI Hiring Law (NYC 144) Compliance Tool | Space HR",
+  title: "New York NYC 144 AI Hiring Compliance Tool",
   description:
-    "Automate your bias audits for NYC Local Law 144. Space HR provides independent bias testing, summary reports, and transparency notices to ensure AI hiring compliance.",
+    "Ensure automated employment decision tool (AEDT) compliance under NYC Local Law 144. Automate bias audits, summary reports, and candidate notices.",
   keywords: [
     "NYC Local Law 144",
     "AI bias audit",
@@ -113,9 +113,9 @@ export default function NYC144CompliancePage() {
                 <div className="mt-8 p-6 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl flex gap-4">
                   <AlertTriangle className="w-8 h-8 text-red-600 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-red-700 dark:text-red-400">
+                    <h3 className="font-bold text-red-700 dark:text-red-400">
                       Enforcement is Active
-                    </h4>
+                    </h3>
                     <p className="text-sm text-red-600/80 dark:text-red-300/80 mt-1">
                       Penalties start at $500 for the first violation and up to
                       $1,500 for subsequent violations per day/candidate.

@@ -6,9 +6,9 @@ import { CareerDetail } from "@/components/CareerDetail";
 const career = getCareerBySlug("mern-developer");
 
 export const metadata: Metadata = {
-  title: "MERN Stack Developer — Careers at Space HR",
+  title: "MERN Stack Developer — Careers",
   description:
-    "Apply to be a MERN Stack Developer at Space HR. Build scalable HR applications using React, Next.js, MongoDB, NestJS, GraphQL, and Node.js. Freshers welcome. Remote role.",
+    "Apply for MERN Stack Developer at Space HR. Build scalable HR applications using React, Next.js, Node.js, NestJS, and GraphQL. Remote position.",
   keywords: [
     "MERN stack developer job",
     "React developer job",

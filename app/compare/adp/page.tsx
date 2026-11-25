@@ -12,17 +12,17 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ADP Workforce Now vs Space HR: Payroll vs AI-Native HR",
-  description: "ADP lacks AI anomaly detection and attrition prediction. Space HR adds the AI layer your payroll system is missing. See the comparison.",
+  title: "ADP Workforce Now vs Space HR Comparison",
+  description: "Compare ADP Workforce Now and Space HR. Explore payroll automation, AI anomaly detection, self-service chatbots, and total cost of ownership.",
   keywords: ["adp workforce now alternative","Space HR vs adp","adp competitor","ai payroll software","adp replacement for mid-market"],
   twitter: {
     card: "summary_large_image",
-    title: "ADP Workforce Now vs Space HR: Payroll Legacy vs AI-Native HR",
+    title: "ADP Workforce Now vs Space HR Comparison",
     description: "ADP Workforce Now is the payroll gold standard — but lacks AI anomaly detection, attrition prediction, and a modern employee self-service chatbot. Space HR adds the AI layer your ADP doesn't have.",
   },
   alternates: { canonical: "https://spacehr.net/compare/adp" },
   openGraph: {
-    title: "ADP Workforce Now vs Space HR: Payroll Legacy vs AI-Native HR",
+    title: "ADP Workforce Now vs Space HR Comparison",
     description: "ADP Workforce Now is the payroll gold standard — but lacks AI anomaly detection, attrition prediction, and a modern employee self-service chatbot. Space HR adds the AI layer your ADP doesn't have.",
     url: "https://spacehr.net/compare/adp",
     siteName: "Space HR",

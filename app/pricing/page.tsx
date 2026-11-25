@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/Button";
 import { ArrowRight, MessageCircle, Calendar, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Space HR Pricing — Request a Custom Quote",
+  title: "Pricing & Plans — Custom Quote & Estimates",
   description:
-    "Space HR believes in personalized pricing. Request a quote and get the best price for your HRMS, payroll, and AI HR needs.",
+    "Transparent, scalable pricing for growing teams and enterprises. Explore Space HR plans for AI chatbots, payroll automation, and performance reviews.",
   openGraph: {
     title: "Space HR Pricing — Request a Custom Quote",
     description:

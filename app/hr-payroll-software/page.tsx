@@ -22,9 +22,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HR Payroll Software & Performance Appraisals | Space HR",
+  title: "HR Payroll Software & Appraisals",
   description:
-    "Discover the power of integrating HR Payroll Software with Performance Appraisals. Streamline compensation, bonus calculations, and talent retention with Space HR.",
+    "Discover the power of unifying payroll processing with performance appraisals. Streamline compensation, bonus calculations, and retention with Space HR.",
   keywords: [
     "hr payroll software",
     "performance appraisal software",
@@ -119,9 +119,9 @@ export default function PayrollAppraisalsPage() {
       <section className="py-12 bg-white dark:bg-[#0b1121]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="bg-indigo-50 dark:bg-indigo-900/10 border-l-4 border-indigo-500 p-6 rounded-r-lg">
-            <h3 className="text-lg font-bold text-indigo-800 dark:text-indigo-300 mb-2">
+            <h2 className="text-lg font-bold text-indigo-800 dark:text-indigo-300 mb-2">
               What is Integrated HR?
-            </h3>
+            </h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Integrated HR combines core administrative functions (like Payroll) with strategic talent management (Appraisals). Instead of separate silos, data flows seamlessly: performance reviews directly influence compensation, and payroll costs can be analyzed against employee productivity metrics in real-time.
             </p>

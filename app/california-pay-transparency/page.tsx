@@ -15,9 +15,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "California Pay Transparency Act Software | Space HR",
+  title: "California Pay Transparency Act Software",
   description:
-    "Comply with California's Pay Transparency Act (SB 1162). Automate pay scale disclosures, generate salary ranges, and submit required pay data reports easily.",
+    "Automate California Pay Transparency Act (SB 1162) compliance. Generate required pay scale disclosures, salary ranges, and state pay reports easily."s Pay Transparency Act (SB 1162). Automate pay scale disclosures, generate salary ranges, and submit required pay data reports easily.",
   keywords: [
     "California Pay Transparency Act",
     "SB 1162 compliance",
@@ -84,7 +84,7 @@ export default function CaliforniaPayTransparencyPage() {
                                 <FileSpreadsheet className="w-6 h-6" />
                              </div>
                              <div>
-                                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Pay Data Reporting</h3>
+                                <div className="text-xl font-bold text-slate-900 dark:text-white">Pay Data Reporting</div>
                                 <p className="text-sm text-slate-500">Due annually in May</p>
                              </div>
                         </div>
@@ -103,7 +103,7 @@ export default function CaliforniaPayTransparencyPage() {
                                 <Search className="w-6 h-6" />
                              </div>
                              <div>
-                                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Pay Scale Disclosure</h3>
+                                <div className="text-xl font-bold text-slate-900 dark:text-white">Pay Scale Disclosure</div>
                                 <p className="text-sm text-slate-500">Required for all job postings</p>
                              </div>
                         </div>
@@ -126,9 +126,9 @@ export default function CaliforniaPayTransparencyPage() {
                          <div className="mt-4 p-6 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl flex gap-4">
                             <AlertTriangle className="w-8 h-8 text-red-600 shrink-0" />
                             <div>
-                                <h4 className="font-bold text-red-700 dark:text-red-400">
+                                <h3 className="font-bold text-red-700 dark:text-red-400">
                                 civil Penalties & Lawsuits
-                                </h4>
+                                </h3>
                                 <p className="text-sm text-red-600/80 dark:text-red-300/80 mt-1">
                                     Penalties can reach $10,000 per violation. Additionally, non-compliance opens the door to costly discrimination class-action lawsuits.
                                 </p>

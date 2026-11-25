@@ -24,9 +24,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "HR AI Chatbot: Features & Buyer's Guide | Space HR",
+  title: "HR AI Chatbot Features & Buyer's Guide"s Guide | Space HR",
   description:
-    "Learn what an HR AI chatbot is, which features matter, and how to choose one for your team. Covers use cases, integrations, security, and ROI for mid-market and enterprise HR.",
+    "Learn what features matter in an HR AI chatbot. Explore conversational workflows, security standards, ticket reduction metrics, and implementation ROI.",
   keywords: [
     "hr ai chatbot",
     "what is hr ai chatbot",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/solutions/hr-ai-chatbot",
   },
   openGraph: {
-    title: "HR AI Chatbot: What It Is, Features & Buyer's Guide | Space HR",
+    title: "HR AI Chatbot: What It Is, Features & Buyer"s Guide | Space HR",
     description:
       "Learn what an HR AI chatbot is, which features matter, and how to choose one for your team.",
     url: "https://spacehr.net/solutions/hr-ai-chatbot",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HR AI Chatbot: What It Is, Features & Buyer's Guide | Space HR",
+    title: "HR AI Chatbot: What It Is, Features & Buyer"s Guide | Space HR",
     description:
       "Learn what an HR AI chatbot is, which features matter, and how to choose one.",
     images: ["/desktop-design-showcase.webp"],

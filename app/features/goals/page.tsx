@@ -26,9 +26,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Goal Management & OKR Software: Align Teams | Space HR",
+  title: "Goal Management & OKR Tracking Software",
   description:
-    "Align your team with AI-powered OKR management. Cascade company objectives to individuals and track real-time progress toward your most strategic goals.",
+    "Align teams around company objectives with Space HR's OKR software. Track quarterly progress, link individual goals to company KPIs, and boost focus.",
   keywords: [
     "goal management software",
     "OKR software",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "organizational goal alignment",
   ],
   openGraph: {
-    title: "Goal Management & OKRs | Space HR",
+    title: "Goal Management & OKRs",
     description:
       "AI-powered goal tracking with OKR frameworks and strategic alignment.",
     url: "https://spacehr.net/features/goals",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Goal Management & OKRs | Space HR",
+    title: "Goal Management & OKRs",
     description:
       "Set and track goals with AI-powered progress insights and team alignment.",
     images: ["/og-goals.png"],
@@ -412,9 +412,9 @@ export default function GoalsPage() {
                         className={`w-5 h-5 text-${item.color}-600 dark:text-${item.color}-400`}
                       />
                     </div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">
                       {item.title}
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       {item.desc}
                     </p>

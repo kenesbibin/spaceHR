@@ -39,9 +39,9 @@ import {
 import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "AI Payroll Automation: Anomaly Detection & ACH | Space HR",
+  title: "AI Payroll Automation & Direct Deposit ACH",
   description:
-    "Eliminate payroll errors by 99% with AI anomaly detection. Generate NACHA-compliant ACH files and handle tax withholding via an automated 5-step wizard",
+    "Automate payroll calculations, NACHA ACH direct deposits, and tax withholding for W-2 and 1099 workers with built-in anomaly detection.",
   keywords: [
     "AI payroll automation",
     "payroll anomaly detection",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     "pay stub generation",
   ],
   openGraph: {
-    title: "AI Payroll Automation | Space HR",
+    title: "AI Payroll Automation",
     description:
       "5-step payroll wizard with automated auditing, tax compliance, and ACH generation. Reduce payroll errors by 99%.",
     url: "https://spacehr.net/features/payroll",
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Payroll Automation | Space HR",
+    title: "AI Payroll Automation",
     description:
       "5-step payroll wizard with automated auditing, tax compliance, and ACH generation.",
     images: ["/og-payroll.png"],
@@ -114,6 +114,16 @@ const payrollFaqs = [
     question: "Does Space HR support multi-state payroll compliance?",
     answer:
       "Yes. Space HR handles payroll across all 50 US states, managing state income tax withholding, SUTA rates, local payroll taxes, reciprocity agreements, and varying pay frequency requirements. The AI compliance engine automatically updates when tax rates change, so you're always processing with current rules — without any manual configuration.",
+  },
+  {
+    question: "Does Space HR support paying both W-2 employees and 1099 independent contractors?",
+    answer:
+      "Yes. Space HR supports unified payroll for mixed workforces. You can pay W-2 employees and 1099 contractors in the same pay run via NACHA-compliant direct deposit. The system automatically withholds payroll taxes for W-2 employees while leaving contractor disbursements gross, generating annual W-2 and 1099-NEC forms automatically.",
+  },
+  {
+    question: "How does Space HR integrate employee benefits with payroll deductions?",
+    answer:
+      "Space HR natively synchronizes benefits with payroll. When employees enroll in health insurance, vision, dental, HSA/FSA, or 401(k) plans, pre-tax and post-tax deduction amounts calculate automatically and flow directly into payroll processing, preventing deduction errors and eliminating manual spreadsheet reconciliation.",
   },
 ];
 
@@ -403,9 +413,9 @@ export default function AIPayrollPage() {
                     <CheckCircle className="w-5 h-5 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Live Processing Status
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Watch payroll calculations happen in real-time with
                       step-by-step progress
@@ -417,9 +427,9 @@ export default function AIPayrollPage() {
                     <AlertTriangle className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Anomaly Alerts
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Instant notifications when AI detects unusual patterns or
                       potential errors
@@ -431,9 +441,9 @@ export default function AIPayrollPage() {
                     <PieChart className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h3 className="font-semibold text-gray-900 dark:text-white">
                       Cost Breakdown
-                    </h4>
+                    </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Visual breakdown of gross pay, taxes, deductions, and net
                       pay
@@ -1090,6 +1100,89 @@ export default function AIPayrollPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* UNIFIED W-2 EMPLOYEES & 1099 CONTRACTORS */}
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-white dark:from-[#0f172a] dark:to-[#0b1121] border-t border-b border-gray-100 dark:border-gray-800">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-semibold mb-4 border border-blue-200 dark:border-blue-800">
+              <Users className="w-4 h-4" /> Mixed Workforce Management
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              Unified Payroll for W-2 Employees & 1099 Contractors
+            </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300">
+              Pay full-time staff, hourly workers, and freelance contractors from a single platform with automated tax withholding for employees and gross direct deposits for contractors.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+            <div className="bg-white dark:bg-gray-800/70 p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-md">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 rounded-xl bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 flex items-center justify-center font-bold text-lg">
+                  W-2
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                    Full-Time & Hourly Employees
+                  </h3>
+                  <p className="text-sm text-gray-500">Automated statutory tax compliance</p>
+                </div>
+              </div>
+              <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>Federal, state, and local income tax withholding</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>FICA (Social Security & Medicare) and FUTA/SUTA employer taxes</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>Pre-tax benefits, 401(k), and wage garnishment deduction sync</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                  <span>Automated year-end Form W-2 generation and IRS e-filing</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white dark:bg-gray-800/70 p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-md">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 flex items-center justify-center font-bold text-lg">
+                  1099
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                    Independent Contractors & Freelancers
+                  </h3>
+                  <p className="text-sm text-gray-500">Zero tax withholding, instant ACH payout</p>
+                </div>
+              </div>
+              <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
+                  <span>Digital W-9 collection and secure TIN verification</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
+                  <span>Direct deposit ACH payouts on standard or off-cycle schedules</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
+                  <span>Zero employer tax withholdings with clear worker classification tracking</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
+                  <span>Automated Form 1099-NEC generation and year-end distribution</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

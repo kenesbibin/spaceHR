@@ -18,9 +18,9 @@ import { Metadata } from "next";
 import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "AI Performance Review Templates | Unbiased Forms",
+  title: "AI Performance Review & HR Form Templates",
   description:
-    "Generate role-specific, unbiased performance review templates in seconds with AI. Competency-based forms with weighted scoring for fair evaluations.",
+    "Generate unbiased performance appraisal templates, HR policies, and review forms in seconds using Space HR's intelligent template generator.",
   keywords: [
     "AI performance review templates",
     "competency-based templates",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "AI-generated appraisals",
   ],
   openGraph: {
-    title: "AI Performance Review Templates | Space HR",
+    title: "AI Performance Review Templates",
     description:
       "Generate fair, role-specific performance review templates with AI in seconds.",
     images: ["/og-templates.png"],

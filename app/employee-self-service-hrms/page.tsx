@@ -31,9 +31,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Employee Self Service HRMS | Buyer's Guide | Space HR",
+  title: "Employee Self-Service HRMS Buyer's Guide"s Guide | Space HR",
   description:
-    "Compare employee self-service HRMS options and learn what to look for in a global ESS portal. Covers leave, payslips, attendance, compliance, and ROI for US, UK, UAE, Singapore, India, Canada, and Europe.",
+    "Complete buyer's guide to employee self-service HRMS portals. Compare features, compliance, leave tracking, payslip downloads, and ROI for teams.",
   keywords: [
     "employee self service hrms",
     "employee self service portal",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "buy employee self service hrms",
   ],
   openGraph: {
-    title: "Employee Self Service HRMS: Buyer's Guide | Space HR",
+    title: "Employee Self Service HRMS: Buyer"s Guide | Space HR",
     description:
       "Compare ESS HRMS options for global teams. Learn how to evaluate leave, payroll, attendance, compliance, and ROI.",
     url: "https://spacehr.net/employee-self-service-hrms",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Employee Self Service HRMS: Buyer's Guide | Space HR",
+    title: "Employee Self Service HRMS: Buyer"s Guide | Space HR",
     description:
       "Compare ESS HRMS options and learn what to evaluate for global teams.",
   },

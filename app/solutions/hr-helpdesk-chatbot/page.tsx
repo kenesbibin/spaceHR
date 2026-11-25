@@ -32,9 +32,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "HR Helpdesk Chatbot — AI Service Desk & Ticketing",
+  title: "HR Helpdesk Chatbot — AI Service Desk",
   description:
-    "Deflect HR tickets with an AI helpdesk chatbot. Integrates with ServiceNow, Jira, Freshdesk, and Zendesk to resolve routine queries automatically.",
+    "Transform internal HR support with an automated ticketing chatbot. Resolve 70% of employee inquiries instantly without human intervention.",
   keywords: [
     "hr helpdesk chatbot",
     "hr service desk chatbot",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     canonical: "https://spacehr.net/solutions/hr-helpdesk-chatbot",
   },
   openGraph: {
-    title: "HR Helpdesk Chatbot — AI Service Desk Integration | Space HR",
+    title: "HR Helpdesk Chatbot — AI Service Desk Integration",
     description:
       "Deflect HR tickets before they reach your service desk. Integrates with ServiceNow, Jira, Freshdesk, and Zendesk.",
     url: "https://spacehr.net/solutions/hr-helpdesk-chatbot",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HR Helpdesk Chatbot | Space HR",
+    title: "HR Helpdesk Chatbot",
     description:
       "Deflect HR tickets before they reach your service desk. ServiceNow, Jira, Freshdesk, Zendesk integration.",
     images: ["/desktop-design-showcase.webp"],

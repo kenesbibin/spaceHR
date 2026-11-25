@@ -6,17 +6,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "HR Solutions by Role & Use Case | Space HR",
+  title: "HR Solutions by Role & Business Use Case",
   description:
-    "Explore Space HR solutions built for CEOs, HR Admins, and employees — including AI chatbots, employee self-service, and chatbot-for-HR-services.",
+    "Discover tailored HR solutions for CEOs, HR administrators, finance leaders, and employees. Automate operations and improve employee engagement.",
   twitter: {
     card: "summary_large_image",
-    title: "HR Solutions by Role & Use Case | Space HR",
+    title: "HR Solutions by Role & Use Case",
     description: "Explore Space HR solutions built for CEOs, HR Admins, and employees — including AI chatbots, employee self-service, and chatbot-for-HR-services.",
   },
   alternates: { canonical: "https://spacehr.net/solutions" },
   openGraph: {
-    title: "HR Solutions by Role & Use Case | Space HR",
+    title: "HR Solutions by Role & Use Case",
     description:
       "Explore Space HR solutions built for CEOs, HR Admins, and employees — including AI chatbots, employee self-service, and chatbot-for-HR-services.",
     url: "https://spacehr.net/solutions",

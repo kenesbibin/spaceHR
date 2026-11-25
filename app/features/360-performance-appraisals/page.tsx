@@ -29,9 +29,9 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
   title:
-    "360-Degree Performance Appraisals with AI Summaries",
+    "360 Performance Appraisals with AI",
   description:
-    "AI-powered 360° performance appraisals with summaries, competency forms, and feedback loops. Eliminate bias and deliver coaching insights for every employee.",
+    "Run unbiased 360-degree performance reviews with AI-generated executive summaries, peer feedback synthesis, and objective goal tracking.",
   keywords: [
     "360 degree performance appraisals",
     "AI-generated performance summaries",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "talent development platform",
   ],
   openGraph: {
-    title: "360° Performance Appraisals with AI Coaching | Space HR",
+    title: "360° Performance Appraisals with AI Coaching",
     description:
       "AI-generated performance summaries, competency-based reviews, and continuous feedback loops. Transform how you evaluate and develop talent.",
     url: "https://spacehr.net/features/360-performance-appraisals",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "360° Performance Appraisals | Space HR",
+    title: "360° Performance Appraisals",
     description:
       "AI-powered 360-degree reviews with automated summaries, competency mapping, and personalized coaching recommendations.",
   },
