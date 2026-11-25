@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Product Demo — AI HR Platform in Action",
   description:
-    "Watch a 2-minute demo of Space HR's AI HRMS platform. See automated payroll, self-service chatbots, and labor cost forecasting live in action."s AI-powered HRMS. See the AI HR chatbot, payroll anomaly detection, workforce cost forecasting, and employee self-service live. No signup required.",
+    "Watch a 2-minute demo of Space HR's AI HRMS platform. See automated payroll, self-service chatbots, and labor cost forecasting live in action.",
   keywords: [
     "Space HR demo",
     "ai hr software demo",

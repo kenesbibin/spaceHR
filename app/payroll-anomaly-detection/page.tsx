@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: "Payroll Anomaly Detection Software",
   description:
-    "AI payroll anomaly detection scans pay runs before funds transfer — catching ghost employees, tax errors, and duplicate payments before ACH payouts."s AI payroll anomaly detection scans every pay run before funds transfer — catching ghost employees, tax errors, overtime spikes, and duplicate payments. Reduce payroll errors by 99%.",
+    "AI payroll anomaly detection scans pay runs before funds transfer — catching ghost employees, tax errors, and duplicate payments before ACH payouts.",
   keywords: [
     "payroll anomaly detection",
     "payroll anomaly detection software",

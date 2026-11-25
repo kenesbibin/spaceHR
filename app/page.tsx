@@ -28,6 +28,8 @@ import { Metadata } from "next";
 import {
   JsonLd,
   organizationSchema,
+  founderPersonSchemas,
+  hrmsServiceSchema,
   softwareSchema,
   websiteSchema,
   generateFAQSchema,
@@ -88,6 +90,11 @@ export const metadata: Metadata = {
 export default function Home() {
   const homeFaqs = [
     {
+      question: "Who founded Space HR?",
+      answer:
+        "Space HR was co-founded by Thomas Jomon, President and Chief AI Officer, and Bibin Prathap. Learn more about the team on the About page.",
+    },
+    {
       question: "What is Space HR?",
       answer:
         "Space HR is an AI-powered HR platform that combines an AI HR chatbot for employee self-service, automated payroll anomaly detection, 12-month labor cost forecasting, 360-degree performance appraisals, and attrition prediction. Designed for mid-market and enterprise companies to reduce HR overhead and make data-driven workforce decisions.",
@@ -139,6 +146,10 @@ export default function Home() {
   return (
     <>
       <JsonLd data={organizationSchema} />
+      {founderPersonSchemas.map((person) => (
+        <JsonLd key={person["@id"]} data={person} />
+      ))}
+      <JsonLd data={hrmsServiceSchema} />
       <JsonLd data={softwareSchema} />
       <JsonLd data={websiteSchema} />
       <JsonLd data={generateFAQSchema(homeFaqs)} />
@@ -1357,6 +1368,10 @@ export default function Home() {
             </div>
             <div className="space-y-4">
               {[
+                {
+                  q: "Who founded Space HR?",
+                  a: "Space HR was co-founded by Thomas Jomon, President and Chief AI Officer, and Bibin Prathap. Learn more about the team on the About page.",
+                },
                 {
                   q: "What is Space HR?",
                   a: "Space HR is an AI-powered HR platform combining an AI chatbot for employee self-service, automated payroll anomaly detection, 12-month labor cost forecasting, 360° performance appraisals, and attrition prediction — designed for mid-market and enterprise teams.",

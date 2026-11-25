@@ -26,16 +26,18 @@ export const organizationSchema = {
   founders: [
     {
       "@type": "Person",
+      "@id": "https://spacehr.net/#thomas-jomon",
       name: "Thomas Jomon",
       jobTitle: "Co-Founder, President & Chief AI Officer",
       url: "https://pmspace.ai/space-team",
-      sameAs: "https://www.linkedin.com/in/thomas-jomon-45475327/",
+      sameAs: ["https://pmspace.ai/space-team", "https://www.linkedin.com/in/thomas-jomon-45475327/"],
     },
     {
       "@type": "Person",
+      "@id": "https://spacehr.net/#bibin-prathap",
       name: "Bibin Prathap",
       url: "https://bibinprathap.com",
-      sameAs: "https://bibinprathap.com",
+      sameAs: ["https://bibinprathap.com"],
     },
   ],
   sameAs: [
@@ -95,6 +97,49 @@ export const organizationSchema = {
     { "@type": "Country", name: "Canada" },
     { "@type": "Place", name: "Europe" },
   ],
+};
+
+export const founderPersonSchemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://spacehr.net/#thomas-jomon",
+    name: "Thomas Jomon",
+    jobTitle: "Co-Founder, President & Chief AI Officer",
+    url: "https://pmspace.ai/space-team",
+    sameAs: [
+      "https://pmspace.ai/space-team",
+      "https://www.linkedin.com/in/thomas-jomon-45475327/",
+    ],
+    worksFor: { "@id": "https://spacehr.net/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://spacehr.net/#bibin-prathap",
+    name: "Bibin Prathap",
+    url: "https://bibinprathap.com",
+    sameAs: ["https://bibinprathap.com"],
+    worksFor: { "@id": "https://spacehr.net/#organization" },
+  },
+];
+
+export const hrmsServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://spacehr.net/#hrms-service",
+  name: "Space HR AI-powered HRMS and Payroll Platform",
+  serviceType: "Cloud-based human resource management and payroll software",
+  url: "https://spacehr.net",
+  description:
+    "A cloud-based HRMS platform for employee self-service, payroll automation, workforce analytics, and HR operations.",
+  provider: { "@id": "https://spacehr.net/#organization" },
+  areaServed: organizationSchema.areaServed,
+  audience: {
+    "@type": "BusinessAudience",
+    audienceType: "Organizations seeking HR management and payroll software",
+  },
+  mainEntityOfPage: "https://spacehr.net",
 };
 
 export const softwareSchema = {

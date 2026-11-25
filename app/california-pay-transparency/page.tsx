@@ -17,7 +17,7 @@ import { JsonLd, generateBreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "California Pay Transparency Act Software",
   description:
-    "Automate California Pay Transparency Act (SB 1162) compliance. Generate required pay scale disclosures, salary ranges, and state pay reports easily."s Pay Transparency Act (SB 1162). Automate pay scale disclosures, generate salary ranges, and submit required pay data reports easily.",
+    "Automate California Pay Transparency Act (SB 1162) compliance. Generate required pay scale disclosures, salary ranges, and state pay reports easily.",
   keywords: [
     "California Pay Transparency Act",
     "SB 1162 compliance",
